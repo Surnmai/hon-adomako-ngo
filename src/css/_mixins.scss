@@ -1,0 +1,14 @@
+// import variables
+@import "variables";
+
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap: 1.5rem;
+}
+
+@mixin fonts($size) {
+  font-family: "Satisfy", cursive;
+  font-size: $size;
+  color: $green;
+}

@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Plus Jakarta Sans";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+  list-style: none;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+  background: #f7f7f7;
+}
+
+section,
+header,
+footer {
+  padding: 2rem 9%;
+}
+
+.btn {
+  display: inline-block;
+  color: #130f40;
+  background: #f2c94c;
+  padding: 0.7rem 1rem;
+  margin: 1rem 0;
+  border-radius: 0.3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #ffe900;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.title {
+  color: #130f40;
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+header {
+  width: 100%;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+}
+header .logo {
+  font-size: 4rem;
+  cursor: pointer;
+}
+header .nav ul {
+  display: flex;
+}
+header .nav ul li .links {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  color: #666;
+}
+header .nav ul li .links:hover {
+  color: #f2c94c;
+}
+header .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+header .icons button {
+  color: #130f40;
+}
+header .icons button #menu-bars {
+  display: none;
+}
+header .icons svg {
+  padding: 1rem;
+  height: 4rem;
+  width: 4rem;
+  background: #f7f7f7;
+  border-radius: 0.5rem;
+  color: #130f40;
+}
+header .icons svg:hover {
+  color: #fff;
+  background: #f2c94c;
+}
+
+.hero {
+  background: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.hero .content {
+  transform: translateY(20rem);
+  width: 50%;
+}
+.hero .content h3 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 900;
+  text-shadow: 0.2rem 0.2rem black;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 10rem 0;
+  flex-wrap: wrap;
+}
+.mission .content {
+  flex: 1 1 40rem;
+}
+.mission .content p {
+  color: #666;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+.mission .image {
+  flex: 1 1 40rem;
+}
+.mission .image img {
+  width: 100%;
+}
+
+.frgBackground {
+  background: #fcedc6;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.frgBackground .content {
+  flex: 1 1 40rem;
+}
+.frgBackground .icons {
+  flex: 1 1 40rem;
+  color: #130f40;
+}
+.frgBackground .icons .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1.5rem;
+}
+.frgBackground .icons .container .box {
+  text-align: center;
+}
+.frgBackground .icons .container .box svg {
+  font-size: 8rem;
+  border: 0.2rem solid #130f40;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.frgBackground .icons .container .box .content {
+  font-size: 1.5rem;
+  transform: translateX(3%);
+  text-align: center;
+  padding: 1rem;
+}
+
+@media all and (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  section,
+  header,
+  footer {
+    padding: 2rem;
+  }
+}
+@media all and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  header .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    background: #f2c94c;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  header .nav.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  header .nav Ul {
+    flex-direction: column;
+  }
+  header .nav Ul li {
+    margin: 1.5rem 0;
+  }
+  header .nav Ul li .links {
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+  }
+  header .nav Ul li .links:hover {
+    color: #fff;
+  }
+  header .icons button #menu-bars {
+    display: inline-block;
+  }
+  header .icons .social-icons {
+    display: none;
+  }
+  .hero .content {
+    width: auto;
+  }
+}
+@media all and (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .frgBackground .icons .container .box .content {
+    font-size: 1.5rem;
+    transform: translateX(0%);
+    text-align: center;
+    padding: 1rem;
+  }
+}/*# sourceMappingURL=index.css.map */

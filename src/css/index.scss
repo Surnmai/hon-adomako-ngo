@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+// import partials
+@import "variables";
+@import "mixins";
+
+* {
+  font-family: "Plus Jakarta Sans";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+  list-style: none;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+  background: $light-bg;
+}
+
+// global styles
+
+section,
+header,
+footer {
+  padding: 2rem 9%;
+}
+
+.btn {
+  display: inline-block;
+  color: $black;
+  background: $yellow;
+  padding: 0.7rem 1rem;
+  margin: 1rem 0;
+  border-radius: 0.3rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+
+  &:hover {
+    background: $bright-yellow;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+}
+
+.title {
+  color: $black;
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+
+// header styles starts
+header {
+  width: 100%;
+  background: $white;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: $box-shadow;
+
+  .logo {
+    font-size: 4rem;
+    cursor: pointer;
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      li {
+        .links {
+          font-size: 1.5rem;
+          margin: 0 1rem;
+          color: $light-color;
+          &:hover {
+            color: $yellow;
+          }
+        }
+      }
+    }
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    // font-size: 2rem;
+
+    button {
+      color: $black;
+      #menu-bars {
+        display: none;
+      }
+    }
+
+    svg {
+      padding: 1rem;
+      height: 4rem;
+      width: 4rem;
+      background: $light-bg;
+      border-radius: 0.5rem;
+      color: $black;
+      &:hover {
+        color: $white;
+        background: $yellow;
+      }
+    }
+  }
+}
+// header styles ends
+
+// hero starts
+
+.hero {
+  background: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .content {
+    transform: translateY(20rem);
+    width: 50%;
+    h3 {
+      color: $white;
+      font-size: 4rem;
+      font-weight: 900;
+      text-shadow: 0.2rem 0.2rem black;
+      line-height: 1.5;
+      letter-spacing: 0.1rem;
+    }
+  }
+}
+// hero ends
+
+// mission starts
+.mission {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 10rem 0;
+  flex-wrap: wrap;
+
+  .content {
+    flex: 1 1 40rem;
+    p {
+      color: $light-color;
+      letter-spacing: 0.1rem;
+      margin: 0.5rem 0;
+      // text-align: justify;
+      line-height: 1.5;
+      font-size: 1.3rem;
+    }
+  }
+  .image {
+    flex: 1 1 40rem;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// mission ends
+
+// foreground section starts
+.frgBackground {
+  background: $light-yellow;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  .content {
+    flex: 1 1 40rem;
+  }
+  .icons {
+    flex: 1 1 40rem;
+    color: $black;
+    .container {
+      // display: flex;
+      // justify-content: space-around;
+      // flex: 1 1 20rem;
+      // flex-wrap: wrap;
+      // gap: 4rem;
+      // font-size: 8rem;
+      @include grid(20rem);
+
+      .box {
+        // font-size: 8rem;
+        // border: 0.2rem solid $black;
+        // border-radius: 50%;
+        text-align: center;
+        // padding: 4rem 0;
+
+        svg {
+          font-size: 8rem;
+          border: 0.2rem solid $black;
+          border-radius: 50%;
+          padding: 1rem;
+        }
+
+        .content {
+          font-size: 1.5rem;
+          transform: translateX(3%);
+          text-align: center;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
+// foreground section ends
+
+// media queries
+@media all and (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  section,
+  header,
+  footer {
+    padding: 2rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  header {
+    .nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      border-top: $border;
+      border-bottom: $border;
+      background: $yellow;
+      // box-shadow: 0 1rem 1rem 100vh rgba(0, 0, 0, 0.9);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+      &.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+      Ul {
+        flex-direction: column;
+
+        li {
+          margin: 1.5rem 0;
+          .links {
+            border-bottom: $border;
+            font-size: 2rem;
+            &:hover {
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+
+    .icons {
+      button {
+        #menu-bars {
+          display: inline-block;
+        }
+      }
+      .social-icons {
+        display: none;
+      }
+    }
+  }
+
+  .hero {
+    .content {
+      width: auto;
+    }
+  }
+}
+
+@media all and (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .frgBackground {
+    .icons {
+      .container {
+        .box {
+          .content {
+            font-size: 1.5rem;
+            transform: translateX(0%);
+            text-align: center;
+            padding: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
