@@ -160,6 +160,8 @@ header .icons svg:hover {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .frgBackground .content {
   flex: 1 1 40rem;
@@ -250,10 +252,11 @@ header .icons svg:hover {
   html {
     font-size: 50%;
   }
-  .frgBackground .icons .container .box .content {
-    font-size: 1.5rem;
-    transform: translateX(0%);
-    text-align: center;
-    padding: 1rem;
+  .frgBackground .icons .container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
   }
 }/*# sourceMappingURL=index.css.map */
