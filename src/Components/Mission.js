@@ -1,7 +1,7 @@
 import React from "react";
 
 // import image
-import MissionImg from "../images/mission1.jpg";
+import MissionImg from "../images/mission2.jpg";
 
 const Mission = () => {
   return (

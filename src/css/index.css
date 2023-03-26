@@ -100,7 +100,7 @@ header .icons svg:hover {
 }
 
 .hero {
-  background: url("../images/hero.jpg");
+  background: url("../images/hero2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -174,17 +174,21 @@ header .icons svg:hover {
   gap: 1.5rem;
 }
 .frgBackground .icons .container .box {
-  text-align: center;
-}
-.frgBackground .icons .container .box svg {
-  font-size: 8rem;
-  border: 0.2rem solid #130f40;
+  height: 15rem;
+  width: 15rem;
+  border: 2px solid #130f40;
   border-radius: 50%;
-  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  vertical-align: middle;
+  font-size: 80rem;
+  padding: 2rem;
 }
 .frgBackground .icons .container .box .content {
   font-size: 1.5rem;
-  transform: translateX(3%);
   text-align: center;
   padding: 1rem;
 }
