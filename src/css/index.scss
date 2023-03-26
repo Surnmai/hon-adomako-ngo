@@ -56,18 +56,6 @@ footer {
 
 // header styles starts
 header {
-  // width: 100%;
-  // background: $white;
-  // position: sticky;
-  // top: 0;
-  // right: 0;
-  // left: 0;
-  // z-index: 1000;
-  // display: flex;
-  // align-items: center;
-  // justify-content: space-between;
-  // box-shadow: $box-shadow;
-
   position: sticky;
   width: 100%;
   top: 0;
@@ -244,12 +232,12 @@ header {
 
         padding: 2rem;
 
-        svg {
-          // font-size: 8rem;
-          // border: 0.2rem solid $black;
-          // border-radius: 50%;
-          // padding: 1rem;
-        }
+        // svg {
+        //   // font-size: 8rem;
+        //   // border: 0.2rem solid $black;
+        //   // border-radius: 50%;
+        //   // padding: 1rem;
+        // }
 
         .content {
           font-size: 1.5rem;
@@ -343,10 +331,6 @@ header {
         gap: 4rem;
         align-items: center;
         justify-content: center;
-        // .box {
-        //   .content {
-        //   }
-        // }
       }
     }
   }
