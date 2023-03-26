@@ -9,7 +9,8 @@ const Hero = () => {
       <section className="hero">
         <div className="content">
           <h3>
-            Discover our world of knowledge, culture and idea and stay connected
+            Discover our world of knowledge, culture and ideas and stay
+            connected
           </h3>
           <Button name="read more" path="/about" />
         </div>

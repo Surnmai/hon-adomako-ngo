@@ -5,7 +5,7 @@ import React from "react";
 const Ok = () => {
   return (
     <>
-      <h4>Hello</h4>
+      {/* <h4>Hello</h4> */}
       {/* <About /> */}
     </>
   );
