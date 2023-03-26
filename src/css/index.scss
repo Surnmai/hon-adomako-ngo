@@ -192,6 +192,7 @@ header {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+
   .content {
     flex: 1 1 40rem;
   }
@@ -205,7 +206,7 @@ header {
       // flex-wrap: wrap;
       // gap: 4rem;
       // font-size: 8rem;
-      @include grid(20rem);
+      @include grid(15rem);
 
       .box {
         // font-size: 8rem;
