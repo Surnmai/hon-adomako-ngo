@@ -56,16 +56,29 @@ footer {
 
 // header styles starts
 header {
-  width: 100%;
-  background: $white;
+  // width: 100%;
+  // background: $white;
+  // position: sticky;
+  // top: 0;
+  // right: 0;
+  // left: 0;
+  // z-index: 1000;
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-between;
+  // box-shadow: $box-shadow;
+
   position: sticky;
+  width: 100%;
   top: 0;
-  right: 0;
   left: 0;
+  right: 0;
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 2rem 9%;
+  background: $white;
   box-shadow: $box-shadow;
 
   .logo {
@@ -171,7 +184,7 @@ header {
       margin: 0.5rem 0;
       // text-align: justify;
       line-height: 1.5;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
     }
   }
   .image {
