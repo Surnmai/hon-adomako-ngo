@@ -339,6 +339,7 @@ header {
     padding: 4rem 0;
     text-shadow: 0.2rem 0.2rem black;
     text-align: center;
+    overflow: hidden;
   }
 }
 // BackgroundImgBanner section ends
@@ -346,6 +347,52 @@ header {
 .our-team {
   .container {
     @include grid(35rem);
+    height: 30%;
+    // padding: 2rem 0;
+    // overflow: hidden;
+    .box {
+      &:hover {
+        box-shadow: $box-shadow1;
+        transition: 0.4s linear;
+        cursor: pointer;
+      }
+      .image {
+        height: 60%;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .content {
+        padding-top: 2rem 2rem 0rem;
+        padding: 0 2rem;
+        margin-top: 2rem;
+
+        .title {
+          padding: 0.5rem 0;
+          font-size: 1.7rem;
+        }
+        article {
+          font-size: 1rem;
+          line-height: 1.5;
+          letter-spacing: 0.1rem;
+          color: $light-color;
+          padding-bottom: 1rem;
+        }
+        .link {
+          color: $yellow;
+          font-size: 1.2rem;
+          &:hover {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+  .button {
+    text-align: center;
+    padding: 4rem 0;
   }
 }
 
@@ -417,6 +464,12 @@ header {
   .hero {
     .content {
       width: auto;
+    }
+  }
+
+  .BackgroundImgBanner {
+    h3 {
+      font-size: 4rem;
     }
   }
 }

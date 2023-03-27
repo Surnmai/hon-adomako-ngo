@@ -279,12 +279,55 @@ header .icons svg:hover {
   padding: 4rem 0;
   text-shadow: 0.2rem 0.2rem black;
   text-align: center;
+  overflow: hidden;
 }
 
 .our-team .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 1.5rem;
+  height: 30%;
+}
+.our-team .container .box:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+.our-team .container .box .image {
+  height: 60%;
+}
+.our-team .container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-team .container .box .content {
+  padding-top: 2rem 2rem 0rem;
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+.our-team .container .box .content .title {
+  padding: 0.5rem 0;
+  font-size: 1.7rem;
+}
+.our-team .container .box .content article {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  color: #666;
+  padding-bottom: 1rem;
+}
+.our-team .container .box .content .link {
+  color: #f2c94c;
+  font-size: 1.2rem;
+}
+.our-team .container .box .content .link:hover {
+  color: #130f40;
+}
+.our-team .button {
+  text-align: center;
+  padding: 4rem 0;
 }
 
 @media all and (max-width: 991px) {
@@ -342,6 +385,9 @@ header .icons svg:hover {
   }
   .hero .content {
     width: auto;
+  }
+  .BackgroundImgBanner h3 {
+    font-size: 4rem;
   }
 }
 @media all and (max-width: 450px) {
