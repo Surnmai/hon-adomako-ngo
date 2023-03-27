@@ -226,13 +226,6 @@ header .icons svg:hover {
   padding: 2rem 2rem 0rem;
   margin-top: 2rem;
 }
-.recent .container .box .content .time {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 1.2rem;
-  color: #666;
-}
 .recent .container .box .content .title {
   padding: 0.5rem 0;
   font-size: 1.7rem;
@@ -286,7 +279,6 @@ header .icons svg:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 1.5rem;
-  height: 30%;
 }
 .our-team .container .box:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);

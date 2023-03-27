@@ -280,13 +280,7 @@ header {
       .content {
         padding: 2rem 2rem 0rem;
         margin-top: 2rem;
-        .time {
-          display: flex;
-          align-items: center;
-          gap: 0.5rem;
-          font-size: 1.2rem;
-          color: $light-color;
-        }
+
         .title {
           padding: 0.5rem 0;
           font-size: 1.7rem;
@@ -347,7 +341,7 @@ header {
 .our-team {
   .container {
     @include grid(35rem);
-    height: 30%;
+
     // padding: 2rem 0;
     // overflow: hidden;
     .box {
