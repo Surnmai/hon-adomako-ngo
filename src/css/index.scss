@@ -195,8 +195,9 @@ header {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  height: 50rem;
+  // padding-top: 10rem;
+  // padding-bottom: 10rem;
 
   .content {
     flex: 1 1 40rem;
@@ -269,6 +270,7 @@ header {
         transition: 0.4s linear;
         cursor: pointer;
       }
+
       .image {
         height: 60%;
         img {
@@ -280,7 +282,13 @@ header {
       .content {
         padding: 2rem 2rem 0rem;
         margin-top: 2rem;
-
+        .time {
+          display: flex;
+          gap: 0.5rem;
+          align-items: center;
+          font-size: 1.2rem;
+          color: $light-color;
+        }
         .title {
           padding: 0.5rem 0;
           font-size: 1.7rem;
@@ -316,6 +324,7 @@ header {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  height: 50rem;
 
   &::before {
     content: "";
@@ -342,8 +351,6 @@ header {
   .container {
     @include grid(35rem);
 
-    // padding: 2rem 0;
-    // overflow: hidden;
     .box {
       &:hover {
         box-shadow: $box-shadow1;

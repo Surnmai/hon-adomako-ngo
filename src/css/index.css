@@ -163,8 +163,7 @@ header .icons svg:hover {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  height: 50rem;
 }
 .frgBackground .content {
   flex: 1 1 40rem;
@@ -226,6 +225,13 @@ header .icons svg:hover {
   padding: 2rem 2rem 0rem;
   margin-top: 2rem;
 }
+.recent .container .box .content .time {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #666;
+}
 .recent .container .box .content .title {
   padding: 0.5rem 0;
   font-size: 1.7rem;
@@ -255,6 +261,7 @@ header .icons svg:hover {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  height: 50rem;
 }
 .BackgroundImgBanner::before {
   content: "";
