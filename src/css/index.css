@@ -203,10 +203,15 @@ header .icons svg:hover {
 }
 
 .recent .container {
-  padding: 2rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 1.5rem;
+  padding: 2rem 0;
+}
+.recent .container .box:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  transition: 0.4s linear;
+  cursor: pointer;
 }
 .recent .container .box .image {
   height: 60%;
@@ -214,20 +219,72 @@ header .icons svg:hover {
 .recent .container .box .image img {
   height: 100%;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .recent .container .box .content {
-  margin: 2rem 0;
+  padding: 2rem 2rem 0rem;
+  margin-top: 2rem;
 }
 .recent .container .box .content .time {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #666;
 }
 .recent .container .box .content .title {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   font-size: 1.7rem;
+}
+.recent .container .box .content article {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  color: #666;
+  padding-bottom: 1rem;
+}
+.recent .container .box .content .link {
+  color: #f2c94c;
+  font-size: 1.2rem;
+}
+.recent .container .box .content .link:hover {
+  color: #130f40;
+}
+.recent .button {
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.BackgroundImgBanner {
+  background: url("../images/BackgroundImgBanner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+.BackgroundImgBanner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+}
+.BackgroundImgBanner h3 {
+  color: #fff;
+  font-size: 8rem;
+  text-transform: uppercase;
+  padding: 4rem 0;
+  text-shadow: 0.2rem 0.2rem black;
+  text-align: center;
+}
+
+.our-team .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  gap: 1.5rem;
 }
 
 @media all and (max-width: 991px) {

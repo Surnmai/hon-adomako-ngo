@@ -5,6 +5,8 @@ import Hero from "../Components/Hero";
 import About from "../Components/Mission";
 import ForegroundBanner from "../Components/ForegroundBanner";
 import Recent from "../Components/Recent";
+import BackgroundImgBanner from "../Components/BackgroundImgBanner";
+import OurTeam from "../Components/OurTeam";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <About />
       <ForegroundBanner />
       <Recent />
+      <BackgroundImgBanner />
+      <OurTeam />
     </>
   );
 };
