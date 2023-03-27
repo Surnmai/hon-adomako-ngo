@@ -1,9 +1,10 @@
-// import {
-//   FaFacebookSquare,
-//   FaLinkedin,
-//   FaInstagramSquare,
-//   FaBars,
-// } from "react-icons/fa";
+// import icons
+import { FaRegClock } from "react-icons/fa";
+
+// import images
+import Project1 from "./images/project1.jpg";
+import Project2 from "./images/project2.jpg";
+import Project3 from "./images/project3.jpg";
 
 export const navLinks = [
   {
@@ -29,6 +30,33 @@ export const navLinks = [
   {
     path: "/contact",
     text: "contact",
+  },
+];
+
+export const recentProjects = [
+  {
+    image: Project1,
+    icon: <FaRegClock />,
+    time: "Jan 01.2023",
+    title: "Recent Projects",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    readMore: "read more",
+  },
+  {
+    image: Project2,
+    icon: <FaRegClock />,
+    time: "Jan 01.2023",
+    title: "Recent Projects",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    readMore: "read more",
+  },
+  {
+    image: Project3,
+    icon: <FaRegClock />,
+    time: "Jan 01.2023",
+    title: "Recent Projects",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    readMore: "read more",
   },
 ];
 
