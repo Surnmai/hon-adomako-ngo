@@ -345,6 +345,7 @@ footer .top {
 footer .top .box {
   color: #666;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 footer .top .box .logo-socials {
   text-align: center;

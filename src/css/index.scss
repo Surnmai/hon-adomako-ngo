@@ -411,6 +411,7 @@ footer {
     .box {
       color: $light-color;
       font-size: 1.5rem;
+      font-weight: 600;
 
       .logo-socials {
         text-align: center;
@@ -430,6 +431,8 @@ footer {
               padding: 1rem 0;
               .links {
                 font-size: 1.5rem;
+                // font-weight: bold;
+
                 color: $light-color;
                 &:hover {
                   color: $white;
