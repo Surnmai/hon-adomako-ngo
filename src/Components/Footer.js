@@ -4,7 +4,7 @@ import React from "react";
 import { FcHeatMap } from "react-icons/fc";
 
 //Component to display copyright symbol and current year
-import CopyrightYear from "react-copyright-year";
+// import CopyrightYear from "react-copyright-year";
 
 // Import Component
 import NavLinks from "./Global/NavLinks";
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
 
         <p className="copyright">
-          <CopyrightYear /> aiperdlbg | By nmaitech@outlook.com
+          &copy; {new Date().getFullYear()} aiperdlbg | By nmaitech@outlook.com
         </p>
         {/* <p className="copyright">copyright &copy; {new Date().getFullYear()}</p> */}
       </footer>
