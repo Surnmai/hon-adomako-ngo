@@ -56,6 +56,11 @@ footer {
   padding: 2rem 0;
 }
 
+.logo {
+  font-size: 4rem;
+  cursor: pointer;
+}
+
 // header styles starts
 header {
   position: sticky;
@@ -70,11 +75,6 @@ header {
   padding: 2rem 9%;
   background: $white;
   box-shadow: $box-shadow;
-
-  .logo {
-    font-size: 4rem;
-    cursor: pointer;
-  }
 
   .nav {
     ul {
@@ -402,30 +402,60 @@ header {
 // footer section starts
 footer {
   background: $yellow;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  .top {
+    @include grid(35rem);
+    .box {
+      color: $light-color;
+      font-size: 1.5rem;
 
-  .nav {
-    ul {
-      display: flex;
-      li {
-        .links {
-          font-size: 1.5rem;
-          margin: 0 1rem;
-          color: $light-color;
-          &:hover {
-            color: $white;
+      .logo-socials {
+        text-align: center;
+        .socials {
+          font-size: 3rem;
+          svg {
+            margin: 2.5rem 0.5rem;
+            color: $black;
           }
         }
+      }
+
+      .links {
+        .nav {
+          ul {
+            li {
+              padding: 1rem 0;
+              .links {
+                font-size: 1.5rem;
+                color: $light-color;
+                &:hover {
+                  color: $white;
+                }
+              }
+            }
+          }
+        }
+      }
+      .address,
+      .phone,
+      .email {
+        padding: 1rem 0;
+        &:hover {
+          color: $white;
+          cursor: pointer;
+        }
+      }
+      .mail {
+        text-transform: lowercase;
       }
     }
   }
   .copyright {
+    border-top: $border;
+    margin-top: 1rem;
     font-size: 1.5rem;
     color: $light-color;
+    text-align: center;
+    padding: 2rem 0;
   }
 }
 // footer section ends
