@@ -1,13 +1,15 @@
 import React from "react";
-// import About from "../Components/Mission";
-// import Hero from "../Components/Hero";
+
+// import image
+import About from "../images/about.jpg";
+
+// import components
+import TopBanner from "../Components/Global/TopBanner";
 
 const AboutUs = () => {
   return (
     <>
-      {/* <h4>Hello</h4> */}
-      {/* <About /> */}
-      <h1>Hello</h1>
+      <TopBanner img={About} title="About Us" text="Who we are?" />
     </>
   );
 };

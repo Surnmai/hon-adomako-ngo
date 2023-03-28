@@ -53,6 +53,41 @@ footer {
   cursor: pointer;
 }
 
+.topBanner {
+  padding: 0;
+}
+.topBanner .image {
+  height: 40vh;
+}
+.topBanner .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+.topBanner .content {
+  position: absolute;
+  top: 20vh;
+  color: #fff;
+  padding: 2rem 9%;
+  z-index: 1000;
+}
+.topBanner .content h2 {
+  padding: 2rem 0;
+  font-size: 4rem;
+}
+.topBanner::after {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  height: 48.5vh;
+}
+
 header {
   position: sticky;
   width: 100%;
@@ -215,7 +250,7 @@ header .icons svg:hover {
   cursor: pointer;
 }
 .recent .container .box .image {
-  height: 40rem;
+  height: 30rem;
 }
 .recent .container .box .image img {
   height: 100%;
@@ -301,7 +336,7 @@ header .icons svg:hover {
   cursor: pointer;
 }
 .our-team .container .box .image {
-  height: 40rem;
+  height: 30rem;
 }
 .our-team .container .box .image img {
   width: 100%;
@@ -351,11 +386,15 @@ footer .top .box .logo-socials {
   text-align: center;
 }
 footer .top .box .logo-socials .socials {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 footer .top .box .logo-socials .socials svg {
   margin: 2.5rem 0.5rem;
   color: #130f40;
+}
+footer .top .box .logo-socials .socials svg:hover {
+  transform: translateY(-1rem);
+  transition: 0.4s linear;
 }
 footer .top .box .links .nav ul li {
   padding: 1rem 0;

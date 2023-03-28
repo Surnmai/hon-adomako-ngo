@@ -61,6 +61,42 @@ footer {
   cursor: pointer;
 }
 
+.topBanner {
+  padding: 0;
+  .image {
+    height: 40vh;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: relative;
+    }
+  }
+  .content {
+    position: absolute;
+    top: 20vh;
+    // left: 3rem;
+    color: $white;
+    padding: 2rem 9%;
+    z-index: 1000;
+    h2 {
+      padding: 2rem 0;
+      font-size: 4rem;
+    }
+  }
+  &::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    // height: 100%;
+    position: absolute;
+    height: 48.5vh;
+  }
+}
+
 // header styles starts
 header {
   position: sticky;
@@ -272,7 +308,7 @@ header {
       }
 
       .image {
-        height: 40rem;
+        height: 30rem;
         img {
           height: 100%;
           width: 100%;
@@ -365,7 +401,7 @@ header {
       }
 
       .image {
-        height: 40rem;
+        height: 30rem;
         // overflow: hidden;
         // width: 100%;
         img {
@@ -416,10 +452,14 @@ footer {
       .logo-socials {
         text-align: center;
         .socials {
-          font-size: 3rem;
+          font-size: 4rem;
           svg {
             margin: 2.5rem 0.5rem;
             color: $black;
+            &:hover {
+              transform: translateY(-1rem);
+              transition: 0.4s linear;
+            }
           }
         }
       }
