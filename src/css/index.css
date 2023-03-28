@@ -238,7 +238,7 @@ header .icons svg:hover {
   font-size: 1.7rem;
 }
 .recent .container .box .content article {
-  font-size: 1rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   letter-spacing: 0.1rem;
   color: #666;
@@ -320,7 +320,8 @@ header .icons svg:hover {
   font-size: 2.5rem;
 }
 .our-team .container .box .content article {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  color: #666;
   line-height: 1.5rem;
 }
 .our-team .button {
