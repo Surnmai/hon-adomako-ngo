@@ -272,7 +272,7 @@ header {
       }
 
       .image {
-        height: 45rem;
+        height: 40rem;
         img {
           height: 100%;
           width: 100%;
@@ -348,6 +348,7 @@ header {
 }
 // BackgroundImgBanner section ends
 
+// out team section starts
 .our-team {
   .container {
     @include grid(35rem);
@@ -362,7 +363,7 @@ header {
       }
 
       .image {
-        height: 45rem;
+        height: 40rem;
         // overflow: hidden;
         // width: 100%;
         img {
@@ -396,6 +397,38 @@ header {
     padding: 6rem 0;
   }
 }
+// out team section ends
+
+// footer section starts
+footer {
+  background: $yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .nav {
+    ul {
+      display: flex;
+      li {
+        .links {
+          font-size: 1.5rem;
+          margin: 0 1rem;
+          color: $light-color;
+          &:hover {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    font-size: 1.5rem;
+    color: $light-color;
+  }
+}
+// footer section ends
 
 // media queries
 @media all and (max-width: 991px) {
