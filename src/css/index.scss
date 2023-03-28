@@ -195,9 +195,9 @@ header {
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
-  height: 50rem;
-  // padding-top: 10rem;
-  // padding-bottom: 10rem;
+  // height: 50rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 
   .content {
     flex: 1 1 40rem;
@@ -339,7 +339,7 @@ header {
     color: $white;
     font-size: 8rem;
     text-transform: uppercase;
-    padding: 4rem 0;
+    transform: translateY(35%);
     text-shadow: 0.2rem 0.2rem black;
     text-align: center;
     overflow: hidden;
@@ -469,6 +469,7 @@ header {
   .BackgroundImgBanner {
     h3 {
       font-size: 4rem;
+      transform: translateY(90%);
     }
   }
 }
