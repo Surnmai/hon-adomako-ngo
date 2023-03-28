@@ -213,7 +213,7 @@ header .icons svg:hover {
   cursor: pointer;
 }
 .recent .container .box .image {
-  height: 60%;
+  height: 45rem;
 }
 .recent .container .box .image img {
   height: 100%;
@@ -222,7 +222,7 @@ header .icons svg:hover {
      object-fit: cover;
 }
 .recent .container .box .content {
-  padding: 2rem 2rem 0rem;
+  padding: 2rem;
   margin-top: 2rem;
 }
 .recent .container .box .content .time {
@@ -286,47 +286,44 @@ header .icons svg:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 1.5rem;
+  gap: 2.5rem;
+}
+.our-team .container .box {
+  background: #fcedc6;
 }
 .our-team .container .box:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
-  transition: 0.4s linear;
   cursor: pointer;
 }
 .our-team .container .box .image {
-  height: 60%;
+  height: 45rem;
 }
 .our-team .container .box .image img {
-  height: 100%;
   width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .our-team .container .box .content {
-  padding-top: 2rem 2rem 0rem;
-  padding: 0 2rem;
-  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+.our-team .container .box .content p {
+  color: #666;
+  font-size: 1.5rem;
+  padding-top: 1rem;
 }
 .our-team .container .box .content .title {
   padding: 0.5rem 0;
-  font-size: 1.7rem;
+  font-size: 2.5rem;
 }
 .our-team .container .box .content article {
-  font-size: 1rem;
-  line-height: 1.5;
-  letter-spacing: 0.1rem;
-  color: #666;
-  padding-bottom: 1rem;
-}
-.our-team .container .box .content .link {
-  color: #f2c94c;
-  font-size: 1.2rem;
-}
-.our-team .container .box .content .link:hover {
-  color: #130f40;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
 }
 .our-team .button {
   text-align: center;
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 
 @media all and (max-width: 991px) {
