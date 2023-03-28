@@ -36,7 +36,7 @@ const NavBar = () => {
 
         <div className="icons">
           <button onClick={() => setMenuBar(!menuBar)}>
-            {menuBar ? <FaBars id="menu-bars" /> : <FaTimes id="menu-bars" />}
+            {menuBar ? <FaTimes id="menu-bars" /> : <FaBars id="menu-bars" />}
           </button>
           <Link to="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
             <FaFacebookSquare className="social-icons" />

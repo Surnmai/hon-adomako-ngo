@@ -243,6 +243,7 @@ header .icons svg:hover {
   letter-spacing: 0.1rem;
   color: #666;
   padding-bottom: 1rem;
+  text-align: justify;
 }
 .recent .container .box .content .link {
   color: #f2c94c;
