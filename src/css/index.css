@@ -69,7 +69,7 @@ footer {
   top: 10vh;
   color: #fff;
   padding: 2rem 9%;
-  z-index: 1000;
+  z-index: 1;
 }
 .topBanner .content h2 {
   padding: 2rem 0;
