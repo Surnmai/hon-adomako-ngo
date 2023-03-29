@@ -4,9 +4,8 @@ const TopBanner = ({ img, title, text }) => {
   return (
     <>
       <section className="topBanner">
-        <div className="image">
-          <img src={img} alt={title} />
-        </div>
+        <img src={img} alt={title} />
+
         <div className="content">
           <h4>{title}</h4>
           <h2>{text}</h2>

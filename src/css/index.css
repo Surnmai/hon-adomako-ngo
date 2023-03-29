@@ -55,20 +55,18 @@ footer {
 
 .topBanner {
   padding: 0;
-}
-.topBanner .image {
   height: 40vh;
+  position: relative;
 }
-.topBanner .image img {
+.topBanner img {
+  height: 40vh;
   width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  position: relative;
 }
 .topBanner .content {
   position: absolute;
-  top: 20vh;
+  top: 10vh;
   color: #fff;
   padding: 2rem 9%;
   z-index: 1000;
@@ -79,13 +77,13 @@ footer {
 }
 .topBanner::after {
   content: "";
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
   width: 100%;
-  position: absolute;
-  height: 48.5vh;
+  height: 40vh;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 header {
