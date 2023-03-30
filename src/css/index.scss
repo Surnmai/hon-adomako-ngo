@@ -507,6 +507,75 @@ footer {
 }
 // footer section ends
 
+// about-us section starts
+.about-us {
+  h3 {
+    font-size: 2.5rem;
+    line-height: 1.6;
+  }
+  article {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+}
+// about-us section ends
+
+.research-page {
+  .container {
+    @include grid(35rem);
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+    border-bottom: $border;
+    // overflow: hidden;
+    .box {
+      &:hover {
+        box-shadow: $box-shadow1;
+        transition: 0.4s linear;
+        cursor: pointer;
+      }
+
+      .image {
+        height: 30rem;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .content {
+        padding: 2rem;
+        margin-top: 2rem;
+        .time {
+          display: flex;
+          gap: 0.5rem;
+          align-items: center;
+          font-size: 1.2rem;
+          color: $light-color;
+        }
+        .title {
+          padding: 0.5rem 0;
+          font-size: 1.7rem;
+        }
+        article {
+          font-size: 1.4rem;
+          line-height: 1.5;
+          letter-spacing: 0.1rem;
+          color: $light-color;
+          padding-bottom: 1rem;
+          text-align: justify;
+        }
+        .link {
+          color: $yellow;
+          font-size: 1.2rem;
+          &:hover {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}
+
 // media queries
 @media all and (max-width: 991px) {
   html {

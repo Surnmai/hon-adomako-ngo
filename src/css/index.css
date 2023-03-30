@@ -427,6 +427,68 @@ footer .copyright {
   padding: 2rem 0;
 }
 
+.about-us h3 {
+  font-size: 2.5rem;
+  line-height: 1.6;
+}
+.about-us article {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.research-page .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 0;
+  margin-bottom: 4rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.research-page .container .box:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+.research-page .container .box .image {
+  height: 30rem;
+}
+.research-page .container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.research-page .container .box .content {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.research-page .container .box .content .time {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+.research-page .container .box .content .title {
+  padding: 0.5rem 0;
+  font-size: 1.7rem;
+}
+.research-page .container .box .content article {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  color: #666;
+  padding-bottom: 1rem;
+  text-align: justify;
+}
+.research-page .container .box .content .link {
+  color: #f2c94c;
+  font-size: 1.2rem;
+}
+.research-page .container .box .content .link:hover {
+  color: #130f40;
+}
+
 @media all and (max-width: 991px) {
   html {
     font-size: 55%;

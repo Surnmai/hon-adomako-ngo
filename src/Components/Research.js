@@ -11,7 +11,7 @@ const Research = () => {
   return (
     <>
       <section className="recent">
-        <ResearchCard array={recentProjects} />
+        <ResearchCard array={recentProjects} title="research" />
 
         <div className="button">
           <Button name="view more" path="/research" />

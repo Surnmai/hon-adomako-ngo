@@ -3,10 +3,10 @@ import React from "react";
 // import react router
 import { Link } from "react-router-dom";
 
-const ResearchCard = ({ array }) => {
+const ResearchCard = ({ array, title }) => {
   return (
     <>
-      <h3 className="title">research</h3>
+      <h3 className="title">{title}</h3>
       <div className="container">
         {array.map((recent, index) => {
           const { image, icon, time, title, text, readMore } = recent;
