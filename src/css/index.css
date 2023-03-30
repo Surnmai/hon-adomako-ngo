@@ -15,6 +15,7 @@
 html {
   overflow-x: hidden;
   font-size: 62.5%;
+  scroll-behavior: smooth;
   background: #f7f7f7;
 }
 
@@ -487,6 +488,47 @@ footer .copyright {
 }
 .research-page .container .box .content .link:hover {
   color: #130f40;
+}
+
+.our-team-main .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  gap: 1.5rem;
+  gap: 2.5rem;
+}
+.our-team-main .container .box {
+  background: #fcedc6;
+}
+.our-team-main .container .box:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.our-team-main .container .box .image {
+  height: 30rem;
+}
+.our-team-main .container .box .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-team-main .container .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+.our-team-main .container .box .content p {
+  color: #666;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+.our-team-main .container .box .content .title {
+  padding: 0.5rem 0;
+  font-size: 2.5rem;
+}
+.our-team-main .container .box .content article {
+  font-size: 1.4rem;
+  color: #666;
+  line-height: 1.5rem;
 }
 
 @media all and (max-width: 991px) {

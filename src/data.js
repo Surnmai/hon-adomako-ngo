@@ -20,8 +20,8 @@ export const navLinks = [
     text: "about us",
   },
   {
-    path: "/what-we-do",
-    text: "what we do",
+    path: "/ourteam",
+    text: "our team",
   },
   {
     // our research
@@ -86,9 +86,6 @@ export const ourteam = [
   },
 ];
 
-// export const icons = [
-//   { link: "", icon: <FaBars /> },
-//   { link: "https://web.facebook.com/?_rdc=1&_rdr", icon: <FaFacebookSquare /> },
-//   { link: "https://www.linkedin.com/", icon: <FaLinkedin /> },
-//   { link: "https://www.instagram.com/", icon: <FaInstagramSquare /> },
-// ];
+// have to creat an object for our team page with four contents
+
+// Have to create three objects for each of the research pages with ID's and use USE PARAMS to access them

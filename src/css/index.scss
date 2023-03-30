@@ -20,6 +20,7 @@
 html {
   overflow-x: hidden;
   font-size: 62.5%;
+  scroll-behavior: smooth;
   background: $light-bg;
 }
 
@@ -520,6 +521,7 @@ footer {
 }
 // about-us section ends
 
+// research-page starts
 .research-page {
   .container {
     @include grid(35rem);
@@ -570,6 +572,52 @@ footer {
           &:hover {
             color: $black;
           }
+        }
+      }
+    }
+  }
+}
+// research-page ends
+
+.our-team-main {
+  .container {
+    @include grid(35rem);
+    gap: 2.5rem;
+
+    .box {
+      background: $light-yellow;
+
+      &:hover {
+        box-shadow: $box-shadow1;
+        cursor: pointer;
+      }
+
+      .image {
+        height: 30rem;
+        // overflow: hidden;
+        // width: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .content {
+        padding: 2rem;
+        text-align: center;
+        p {
+          color: $light-color;
+          font-size: 1.5rem;
+          padding-top: 1rem;
+        }
+        .title {
+          padding: 0.5rem 0;
+          font-size: 2.5rem;
+        }
+        article {
+          font-size: 1.4rem;
+          color: $light-color;
+          line-height: 1.5rem;
         }
       }
     }

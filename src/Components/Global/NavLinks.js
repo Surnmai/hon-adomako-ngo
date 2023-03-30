@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 import { useGlobalContext } from "../../context";
 
 const NavLinks = () => {
-  const { menuBar } = useGlobalContext();
+  const { menuBar, closeMenuBar } = useGlobalContext();
   return (
     <>
       <nav className={`${menuBar ? "nav active" : "nav "}`}>
@@ -19,7 +19,11 @@ const NavLinks = () => {
             const { text, path } = link;
             return (
               <li key={index}>
-                <Link to={path} className="links">
+                <Link
+                  to={path}
+                  className="links"
+                  onClick={() => closeMenuBar()}
+                >
                   {text}
                 </Link>
               </li>
