@@ -5,20 +5,20 @@ import { recentProjects } from "../data";
 
 // import component
 import Button from "./Global/Button";
-import ProjectsCard from "./Global/ProjectsCard";
+import ResearchCard from "./Global/ResearchCard";
 
-const Recent = () => {
+const Research = () => {
   return (
     <>
       <section className="recent">
-        <ProjectsCard array={recentProjects} />
+        <ResearchCard array={recentProjects} />
 
         <div className="button">
-          <Button name="view more" path="/projects" />
+          <Button name="view more" path="/research" />
         </div>
       </section>
     </>
   );
 };
 
-export default Recent;
+export default Research;

@@ -8,7 +8,7 @@ const Mission = () => {
     <>
       <section className="mission">
         <div className="content">
-          <h3 className="title">Our mission</h3>
+          <h3 className="title">Our mission & vision</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
             placeat laborum voluptatum quaerat, numquam blanditiis ad

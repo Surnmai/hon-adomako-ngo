@@ -3,10 +3,10 @@ import React from "react";
 // import react router
 import { Link } from "react-router-dom";
 
-const ProjectsCard = ({ array }) => {
+const ResearchCard = ({ array }) => {
   return (
     <>
-      <h3 className="title">recent projects</h3>
+      <h3 className="title">research</h3>
       <div className="container">
         {array.map((recent, index) => {
           const { image, icon, time, title, text, readMore } = recent;
@@ -33,4 +33,4 @@ const ProjectsCard = ({ array }) => {
   );
 };
 
-export default ProjectsCard;
+export default ResearchCard;

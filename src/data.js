@@ -24,8 +24,9 @@ export const navLinks = [
     text: "what we do",
   },
   {
-    path: "/projects",
-    text: "projects",
+    // our research
+    path: "/research",
+    text: "research",
   },
   // {
   //   path: "/blogs",

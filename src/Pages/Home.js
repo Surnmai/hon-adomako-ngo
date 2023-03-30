@@ -4,7 +4,7 @@ import React from "react";
 import Hero from "../Components/Hero";
 import About from "../Components/Mission";
 import ForegroundBanner from "../Components/ForegroundBanner";
-import Recent from "../Components/Recent";
+import Research from "../Components/Research";
 import BackgroundImgBanner from "../Components/BackgroundImgBanner";
 import OurTeam from "../Components/OurTeam";
 
@@ -14,7 +14,7 @@ const Home = () => {
       <Hero />
       <About />
       <ForegroundBanner />
-      <Recent />
+      <Research />
       <BackgroundImgBanner />
       <OurTeam />
     </>
