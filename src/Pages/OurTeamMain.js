@@ -8,7 +8,7 @@ import TopBanner from "../Components/Global/TopBanner";
 import OurTeamCard from "../Components/Global/OurTeamCard";
 
 // import data
-import { ourteam } from "../data";
+import { ourteamAll } from "../data";
 
 const OurTeamMain = () => {
   return (
@@ -16,7 +16,7 @@ const OurTeamMain = () => {
       <TopBanner img={Image} title="What we do" text="services we provide" />
 
       <section className="our-team-main">
-        <OurTeamCard array={ourteam} />
+        <OurTeamCard array={ourteamAll} />
       </section>
     </>
   );

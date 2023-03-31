@@ -9,6 +9,7 @@ import Project3 from "./images/project3.jpg";
 import OurTeam1 from "./images/ourteam1.jpg";
 import OurTeam2 from "./images/ourteam2.jpg";
 import OurTeam3 from "./images/ourteam3.jpg";
+import OurTeam4 from "./images/ourteam4.jpg";
 
 export const navLinks = [
   {
@@ -87,5 +88,31 @@ export const ourteam = [
 ];
 
 // have to creat an object for our team page with four contents
+export const ourteamAll = [
+  {
+    image: OurTeam1,
+    name: "hon. Adomako Mensah",
+    title: "President",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+  },
+  {
+    image: OurTeam2,
+    name: "hon. Adomako Mensah",
+    title: "President",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+  },
+  {
+    image: OurTeam3,
+    name: "hon. Adomako Mensah",
+    title: "President",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+  },
+  {
+    image: OurTeam4,
+    name: "hon. Adomako Mensah",
+    title: "President",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+  },
+];
 
 // Have to create three objects for each of the research pages with ID's and use USE PARAMS to access them

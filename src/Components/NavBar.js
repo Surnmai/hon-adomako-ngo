@@ -23,12 +23,16 @@ import NavLinks from "./Global/NavLinks";
 import { useGlobalContext } from "../context";
 
 const NavBar = () => {
-  const { menuBar, setMenuBar } = useGlobalContext();
+  const { menuBar, setMenuBar, closeMenuBar } = useGlobalContext();
   // console.log(menuBar);
   return (
     <>
       <header>
-        <Link to={navLinks[0].path} className="logo">
+        <Link
+          to={navLinks[0].path}
+          className="logo"
+          onClick={() => closeMenuBar()}
+        >
           <FcHeatMap />
         </Link>
 

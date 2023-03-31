@@ -67,7 +67,6 @@ const Footer = () => {
         <p className="copyright">
           &copy; {new Date().getFullYear()} aiperdlbg | By nmaitech@outlook.com
         </p>
-        {/* <p className="copyright">copyright &copy; {new Date().getFullYear()}</p> */}
       </footer>
     </>
   );
