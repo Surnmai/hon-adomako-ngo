@@ -109,8 +109,10 @@ header .nav ul li .links {
   margin: 0 1rem;
   color: #666;
 }
-header .nav ul li .links:hover {
+header .nav ul li .links:hover, header .nav ul li .links.active {
   color: #f2c94c;
+  background: #130f40;
+  padding: 1rem 2rem;
 }
 header .icons {
   display: flex;

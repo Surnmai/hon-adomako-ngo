@@ -4,7 +4,7 @@ import React from "react";
 import { navLinks } from "../../data";
 
 // import react router
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // import Context API
 import { useGlobalContext } from "../../context";
@@ -19,13 +19,15 @@ const NavLinks = () => {
             const { text, path } = link;
             return (
               <li key={index}>
-                <Link
+                <NavLink
                   to={path}
-                  className="links"
+                  className={({ isActive }) =>
+                    isActive ? "links active" : "links"
+                  }
                   onClick={() => closeMenuBar()}
                 >
                   {text}
-                </Link>
+                </NavLink>
               </li>
             );
           })}

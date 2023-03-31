@@ -10,7 +10,7 @@ import OurTeaMain from "./Pages/OurTeamMain";
 import Research from "./Pages/Research";
 import Contact from "./Pages/Contact";
 import ScrollToTop from "./Components/ScrollTotop";
-// import Blogs from "./Pages/Blogs";
+import Readmore from "./Pages/Readmore";
 
 function App() {
   return (
@@ -23,8 +23,8 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/ourteam" element={<OurTeaMain />} />
           <Route path="/research" element={<Research />} />
-          {/* <Route path="/blogs" element={<Blogs />} /> */}
           <Route path="/contact" element={<Contact />} />
+          <Route path="/readmore" element={<Readmore />} />
         </Routes>
         <Footer />
       </Router>
