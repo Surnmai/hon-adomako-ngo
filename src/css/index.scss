@@ -627,6 +627,27 @@ footer {
   }
 }
 
+// readMore style starts
+.readMore {
+  img {
+    margin: auto;
+    display: block;
+  }
+  h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    line-height: 1.6;
+  }
+  .summary {
+    margin: 1rem 0;
+  }
+  article {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+}
+// readMore style ends
+
 // media queries
 @media all and (max-width: 991px) {
   html {

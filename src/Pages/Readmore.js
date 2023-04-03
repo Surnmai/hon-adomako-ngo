@@ -10,13 +10,15 @@ const Readmore = () => {
   const { id } = useParams();
   const readMore = recentProjects.find((recent) => recent.id === id);
 
-  const { detailedText, image, title } = readMore;
+  const { text, detailedText, image, title } = readMore;
+
   return (
     <>
-      <section>
+      <section className="readMore">
         <img src={image} alt={title} />
         <h1>{title}</h1>
-        <p>{detailedText}</p>
+        <article className="summary">{text}</article>
+        <article>{detailedText}</article>
       </section>
     </>
   );

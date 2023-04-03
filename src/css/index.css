@@ -533,6 +533,23 @@ footer .copyright {
   line-height: 1.5rem;
 }
 
+.readMore img {
+  margin: auto;
+  display: block;
+}
+.readMore h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  line-height: 1.6;
+}
+.readMore .summary {
+  margin: 1rem 0;
+}
+.readMore article {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
 @media all and (max-width: 991px) {
   html {
     font-size: 55%;

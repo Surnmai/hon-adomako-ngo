@@ -11,6 +11,7 @@ import { useGlobalContext } from "../../context";
 
 const NavLinks = () => {
   const { menuBar, closeMenuBar } = useGlobalContext();
+
   return (
     <>
       <nav className={`${menuBar ? "nav active" : "nav "}`}>
