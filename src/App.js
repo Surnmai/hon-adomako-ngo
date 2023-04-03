@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import OurTeaMain from "./Pages/OurTeamMain";
-import Research from "./Pages/Research";
+import ResearchPage from "./Pages/ResearchPage";
 import Contact from "./Pages/Contact";
 import ScrollToTop from "./Components/ScrollTotop";
 import Readmore from "./Pages/Readmore";
@@ -22,9 +22,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/ourteam" element={<OurTeaMain />} />
-          <Route path="/research" element={<Research />} />
+          <Route path="/research" element={<ResearchPage />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/readmore" element={<Readmore />} />
+          <Route path="/readmore/:id" element={<Readmore />} />
         </Routes>
         <Footer />
       </Router>

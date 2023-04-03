@@ -8,10 +8,10 @@ const ResearchCard = ({ array, title }) => {
     <>
       <h3 className="title">{title}</h3>
       <div className="container">
-        {array.map((recent, index) => {
-          const { image, icon, time, title, text, readMore } = recent;
+        {array.map((recent) => {
+          const { id, image, icon, time, title, text, readMore } = recent;
           return (
-            <div className="box" key={index}>
+            <div className="box" key={id}>
               <div className="image">
                 <img src={image} alt={title} />
               </div>
@@ -21,7 +21,7 @@ const ResearchCard = ({ array, title }) => {
                 </div>
                 <h3 className="title">{title}</h3>
                 <article>{text}</article>
-                <Link className="link" to="/readmore">
+                <Link className="link" to={`/readmore/${id}`}>
                   {readMore}
                 </Link>
               </div>

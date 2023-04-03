@@ -5,6 +5,12 @@ import { FaRegClock } from "react-icons/fa";
 import Project1 from "./images/project1.jpg";
 import Project2 from "./images/project2.jpg";
 import Project3 from "./images/project3.jpg";
+import Project4 from "./images/project4.jpg";
+import Project5 from "./images/project5.jpg";
+import Project6 from "./images/project6.jpg";
+import Project7 from "./images/project7.jpg";
+import Project8 from "./images/project8.jpg";
+import Project9 from "./images/project9.jpg";
 
 import OurTeam1 from "./images/ourteam1.jpg";
 import OurTeam2 from "./images/ourteam2.jpg";
@@ -41,28 +47,113 @@ export const navLinks = [
 
 export const recentProjects = [
   {
+    id: "1",
     image: Project1,
     icon: <FaRegClock />,
     time: "Jan 01.2023",
     title: "African History",
     text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
     readMore: "read more",
+    detailedText:
+      "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    desc: "first",
   },
   {
+    id: "2",
     image: Project2,
     icon: <FaRegClock />,
     time: "Jan 01.2023",
     title: "African Culture",
     text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+
     readMore: "read more",
+    detailedText:
+      "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    desc: "first",
   },
   {
+    id: "3",
     image: Project3,
     icon: <FaRegClock />,
     time: "Jan 01.2023",
     title: "African Tradition",
     text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
     readMore: "read more",
+    detailedText:
+      "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    desc: "first",
+  },
+  {
+    id: "4",
+    image: Project4,
+    icon: <FaRegClock />,
+    time: "Jan 01.2023",
+    title: "African Tradition",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    readMore: "read more",
+    detailedText:
+      "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    desc: "second",
+  },
+  {
+    id: "5",
+    image: Project5,
+    icon: <FaRegClock />,
+    time: "Jan 01.2023",
+    title: "African Tradition",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    readMore: "read more",
+    detailedText:
+      "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    desc: "second",
+  },
+  {
+    id: "6",
+    image: Project6,
+    icon: <FaRegClock />,
+    time: "Jan 01.2023",
+    title: "African Tradition",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    readMore: "read more",
+    detailedText:
+      "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    desc: "second",
+  },
+  {
+    id: "7",
+    image: Project7,
+    icon: <FaRegClock />,
+    time: "Jan 01.2023",
+    title: "African Tradition",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    readMore: "read more",
+    detailedText:
+      "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    desc: "third",
+  },
+  {
+    id: "8",
+    image: Project8,
+    icon: <FaRegClock />,
+    time: "Jan 01.2023",
+    title: "African Tradition",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    readMore: "read more",
+    detailedText:
+      "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    desc: "third",
+  },
+  {
+    id: "9",
+    image: Project9,
+    icon: <FaRegClock />,
+    time: "Jan 01.2023",
+    title: "African Tradition",
+    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    readMore: "read more",
+    detailedText:
+      "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo! Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam, Sit Tenetur Doloribus Quod Rerum Voluptatibus Nisi Illo Neque Corporis Doloremque Perspiciatis Velit. Error Necessitatibus Soluta Et Enim, Sapiente Nobis Quas Quo!",
+    desc: "third",
   },
 ];
 
