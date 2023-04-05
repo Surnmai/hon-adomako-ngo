@@ -648,6 +648,33 @@ footer {
 }
 // readMore style ends
 
+.contact-form {
+  form {
+    margin: 2rem auto;
+    width: 50%;
+    background: $white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: $box-shadow1;
+    position: relative;
+    .inputField {
+      padding: 0.2rem 0;
+      input,
+      textarea {
+        background: $light-bg;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        color: $black;
+      }
+      textarea {
+        height: 20rem;
+        resize: none;
+      }
+    }
+  }
+}
+
 // media queries
 @media all and (max-width: 991px) {
   html {

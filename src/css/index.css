@@ -550,6 +550,31 @@ footer .copyright {
   line-height: 1.6;
 }
 
+.contact-form form {
+  margin: 2rem auto;
+  width: 50%;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.contact-form form .inputField {
+  padding: 0.2rem 0;
+}
+.contact-form form .inputField input,
+.contact-form form .inputField textarea {
+  background: #f7f7f7;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #130f40;
+}
+.contact-form form .inputField textarea {
+  height: 20rem;
+  resize: none;
+}
+
 @media all and (max-width: 991px) {
   html {
     font-size: 55%;
