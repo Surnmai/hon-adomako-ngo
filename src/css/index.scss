@@ -666,6 +666,7 @@ footer {
       padding: 1rem 0;
       text-align: center;
       font-size: 1.2rem;
+      font-weight: bold;
       color: $black;
       letter-spacing: 0.1rem;
     }
@@ -762,6 +763,11 @@ footer {
     h3 {
       font-size: 4rem;
       transform: translateY(90%);
+    }
+  }
+  .contact-form {
+    form {
+      width: 100%;
     }
   }
 }
