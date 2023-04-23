@@ -1,34 +1,35 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
+import React from "react";
 
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-  const [alert, setAlert] = useState(false);
+  // const [alert, setAlert] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.send(
-      "service_beg0bxi",
-      "template_0xcinwa",
-      values,
-      "z1hBtHGueVE0dPugc"
-    );
+    // emailjs.send(
+    //   "service_beg0bxi",
+    //   "template_0xcinwa",
+    //   values,
+    //   "z1hBtHGueVE0dPugc"
+    // );
     // setAlert(!alert);
   };
 
-  const [values, setValues] = useState({
-    fullname: "",
-    email: "",
-    number: "",
-    message: "",
-  });
+  // const [values, setValues] = useState({
+  //   fullname: "",
+  //   email: "",
+  //   number: "",
+  //   message: "",
+  // });
 
-  const handleChange = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    // console.log(name, value);
-    setValues({ ...values, [name]: value });
-  };
+  // const handleChange = (e) => {
+  //   const name = e.target.name;
+  //   const value = e.target.value;
+  //   // console.log(name, value);
+  //   setValues({ ...values, [name]: value });
+  // };
 
   //   useEffect(() => {
   //     if (alert) {
@@ -51,8 +52,8 @@ const ContactForm = () => {
               className="inputText"
               required
               name="fullname"
-              value={values.fullname}
-              onChange={handleChange}
+              // value={values.fullname}
+              // onChange={handleChange}
             />
           </div>
 
@@ -63,8 +64,8 @@ const ContactForm = () => {
               className="inputText"
               required
               name="email"
-              value={values.email}
-              onChange={handleChange}
+              // value={values.email}
+              // onChange={handleChange}
             />
           </div>
 
@@ -75,8 +76,8 @@ const ContactForm = () => {
               className="inputText"
               required
               name="number"
-              value={values.number}
-              onChange={handleChange}
+              // value={values.number}
+              // onChange={handleChange}
             />
           </div>
 
@@ -89,8 +90,8 @@ const ContactForm = () => {
               name="message"
               cols="3"
               rows="5"
-              value={values.message}
-              onChange={handleChange}
+              // value={values.message}
+              // onChange={handleChange}
             ></textarea>
           </div>
           <div className="alert">
