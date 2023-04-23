@@ -51,6 +51,7 @@ footer {
 
 .logo {
   font-size: 4rem;
+  max-width: 7rem;
   cursor: pointer;
 }
 

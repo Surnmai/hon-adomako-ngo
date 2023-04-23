@@ -8,7 +8,10 @@ import {
   FaLinkedin,
   FaTimes,
 } from "react-icons/fa";
-import { FcHeatMap } from "react-icons/fc";
+
+// import logo icons
+import Logo from "../images/logo1.jpg";
+// import { FcHeatMap } from "react-icons/fc";
 
 // import react router
 import { Link } from "react-router-dom";
@@ -28,12 +31,9 @@ const NavBar = () => {
   return (
     <>
       <header>
-        <Link
-          to={navLinks[0].path}
-          className="logo"
-          onClick={() => closeMenuBar()}
-        >
-          <FcHeatMap />
+        <Link to={navLinks[0].path} onClick={() => closeMenuBar()}>
+          {/* <FcHeatMap /> */}
+          <img src={Logo} alt="Logo" className="logo" />
         </Link>
 
         <NavLinks />

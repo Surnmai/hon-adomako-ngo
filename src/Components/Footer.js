@@ -1,7 +1,10 @@
 import React from "react";
 
 // import icon
-import { FcHeatMap } from "react-icons/fc";
+// import { FcHeatMap } from "react-icons/fc";
+
+// import data
+import { navLinks } from "../data";
 
 //Component to display copyright symbol and current year
 // import CopyrightYear from "react-copyright-year";
@@ -11,6 +14,9 @@ import NavLinks from "./Global/NavLinks";
 
 // import react router
 import { Link } from "react-router-dom";
+
+// import logo icons
+import Logo from "../images/logo1.jpg";
 
 // import icons
 import {
@@ -26,7 +32,11 @@ const Footer = () => {
         <div className="top">
           <div className="box">
             <div className="logo-socials">
-              <FcHeatMap className="logo" />
+              {/* <FcHeatMap className="logo" /> */}
+              <Link to={navLinks[0].path}>
+                {/* <FcHeatMap /> */}
+                <img src={Logo} alt="Logo" className="logo" />
+              </Link>
               <div className="socials">
                 <Link
                   to="https://web.facebook.com/?_rdc=1&_rdr"
