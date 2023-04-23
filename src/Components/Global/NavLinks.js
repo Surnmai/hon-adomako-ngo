@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect } from "react";
 
 // import data
 import { navLinks } from "../../data";
@@ -11,10 +11,27 @@ import { useGlobalContext } from "../../context";
 
 const NavLinks = () => {
   const { menuBar, closeMenuBar } = useGlobalContext();
+  const menuRef = useRef(null);
+  // console.log(menuRef.current);
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      // console.log(e.target);
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        closeMenuBar();
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [closeMenuBar, menuRef]);
 
   return (
     <>
-      <nav className={`${menuBar ? "nav active" : "nav "}`}>
+      <nav ref={menuRef} className={`${menuBar ? "nav active" : "nav "}`}>
         <ul>
           {navLinks.map((link, index) => {
             const { text, path } = link;

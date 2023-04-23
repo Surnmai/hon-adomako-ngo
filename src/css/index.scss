@@ -662,6 +662,7 @@ footer {
     border-radius: 0.5rem;
     box-shadow: $box-shadow1;
     position: relative;
+
     p {
       padding: 1rem 0;
       text-align: center;
@@ -684,6 +685,22 @@ footer {
         height: 20rem;
         resize: none;
       }
+    }
+    .alert {
+      text-align: center;
+      display: none;
+      small {
+        font-size: 1.7rem;
+        color: rgb(39, 172, 39);
+        background: $light-bg;
+        padding: 1rem 2rem;
+        display: inline-block;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+      }
+    }
+    div {
+      text-align: center;
     }
   }
 }

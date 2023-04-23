@@ -587,6 +587,22 @@ footer .copyright {
   height: 20rem;
   resize: none;
 }
+.contact-form form .alert {
+  text-align: center;
+  display: none;
+}
+.contact-form form .alert small {
+  font-size: 1.7rem;
+  color: rgb(39, 172, 39);
+  background: #f7f7f7;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+.contact-form form div {
+  text-align: center;
+}
 
 @media all and (max-width: 991px) {
   html {
