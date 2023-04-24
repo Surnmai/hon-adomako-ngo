@@ -72,7 +72,7 @@ const ContactForm = () => {
           <div className="inputField">
             <input
               type="tel "
-              placeholder="(+233) 0244039294"
+              placeholder="(+233) 0200757774"
               className="inputText"
               required
               name="number"
