@@ -14,6 +14,7 @@ const NavLinks = () => {
   const menuRef = useRef(null);
   // console.log(menuRef.current);
 
+  // react code to close navbar menu on window scroll and click
   useEffect(() => {
     const handleClickOutside = (e) => {
       // console.log(e.target);
