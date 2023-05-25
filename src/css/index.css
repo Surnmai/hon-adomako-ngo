@@ -443,6 +443,7 @@ footer .copyright {
 .about-us article {
   font-size: 1.5rem;
   line-height: 1.6;
+  padding: 0.2rem 0;
 }
 
 .research-page .container {

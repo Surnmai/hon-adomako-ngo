@@ -206,4 +206,34 @@ export const ourteamAll = [
   },
 ];
 
+export const bulletData1 = [
+  {
+    text: "To undertake relevant research that would enhance development and transformation of Africa",
+  },
+  {
+    text: "To engage in national and international development-oriented advocacy",
+  },
+  {
+    text: "To write, issue, and publish development-oriented reports, articles, books, and policy position papers.",
+  },
+  {
+    text: "To educate the public about important economic and social issues",
+  },
+  {
+    text: "To champion policy reforms that enhance the economic development of Africa",
+  },
+];
+
+export const bulletData2 = [
+  {
+    text: "Transparency and openness in dealing with the public",
+  },
+  {
+    text: "Ethical Responsibility as a guiding principle in conducting activities",
+  },
+  {
+    text: "Excellence and Professionalism",
+  },
+];
+
 // Have to create three objects for each of the research pages with ID's and use USE PARAMS to access them

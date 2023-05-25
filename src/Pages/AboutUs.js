@@ -6,23 +6,46 @@ import About from "../images/about.jpg";
 // import components
 import TopBanner from "../Components/Global/TopBanner";
 import Content from "../Components/Global/Content";
+import BulletContent from "../Components/Global/BulletContent";
 import OurTeam from "../Components/OurTeam";
+
+// import objects
+import { bulletData1, bulletData2 } from "../data";
 
 const AboutUs = () => {
   return (
     <>
       <TopBanner img={About} title="About Us" text="Who we are?" />
       <Content
-        title="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, quo."
-        text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque adipisci porro ad expedita officia dolores debitis nihil maxime, aliquam similique sapiente magnam beatae. Ipsa distinctio repellendus incidunt. Ullam, repudiandae beatae aut doloremque, harum atque assumenda dolore deserunt officia maiores debitis magnam, vero facere repellendus laborum ea nisi sunt ipsam. Animi quasi voluptatum ipsa. Tenetur laboriosam quidem repellat ex numquam perspiciatis eligendi nemo, doloribus quam ipsa aspernatur quaerat corrupti aliquid quo? Quibusdam dolore magnam mollitia perferendis est laudantium nulla neque numquam accusamus dignissimos illum beatae atque sint provident cum quis libero minima totam perspiciatis id nam unde, quidem veniam commodi. Repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellendus aliquam aut? Qui illo eos repellendus atque, velit, dicta ipsam, cum officiis deleniti veritatis porro. Saepe laborum tempora repellendus alias voluptatibus earum sapiente aperiam, esse temporibus quibusdam necessitatibus doloremque magnam, assumenda cumque fuga in eligendi error magni! Dolor optio repudiandae in aliquam impedit. Culpa architecto placeat nisi explicabo neque! Pariatur aliquam esse nesciunt doloremque ad recusandae magni enim fugiat voluptatum? Ipsum aliquam sed sequi quidem similique quaerat numquam consequuntur ratione reiciendis, quisquam, tempore ea voluptate cupiditate delectus culpa exercitationem placeat rerum molestias natus deleniti. Animi rerum hic odit libero sapiente reiciendis molestiae mollitia aliquid ea culpa tempora quo, repudiandae obcaecati ex id. Fugiat optio esse ullam laboriosam placeat ad rem voluptatibus totam saepe veniam quae quisquam odio, asperiores illo. Iure quis similique quos dolor est repellendus eius cumque. Labore culpa porro rerum quasi dignissimos, laudantium obcaecati deserunt et autem modi accusamus ab dolorum omnis excepturi ducimus facilis sapiente recusandae odit tempore, suscipit quam voluptatibus inventore at? Omnis dolorum hic atque facere nostrum, ducimus repellendus iure cupiditate. Deserunt assumenda iste, voluptas unde eveniet ullam veritatis quam nisi officiis laborum excepturi illum eaque nihil, neque corporis! Reiciendis, sit. Eum, quas neque. Est, id dolorum! Autem accusamus atque aspernatur incidunt exercitationem nesciunt dignissimos tempora sit ipsam vitae. Alias ipsum iusto veritatis libero? Vitae, eius. Ducimus odit atque ad repellat cumque quibusdam repudiandae labore iste esse, culpa exercitationem eius, quam neque quia facere inventore ex quo beatae eveniet, nam molestiae omnis repellendus! Incidunt repellendus provident cumque! Beatae impedit ad dicta sequi asperiores ab harum sunt voluptas? Quo, quia amet laborum corporis reiciendis dolorem voluptatibus sequi ex voluptas perferendis mollitia architecto voluptates soluta, cupiditate quis quasi iure et! Cumque, ab, provident ad atque enim odio, iure at rerum non vitae veritatis sequi aliquam excepturi ullam?"
+        title="AIPERD is an African-managed and African-owned non-governmental, non-religious, development-focused organization, with the aim to enhance Africa’s socio-economic development, through evidence-based policy making and capacity building. We are committed to supporting evidence-driven research"
+        // text="AIPERD is an African-managed and African-owned non-governmental, non-religious, development-focused organization, with the aim to enhance Africa’s socio-economic development, through evidence-based policy making and capacity building."
       />
       <Content
         title="Mission"
-        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, deleniti sunt, dolorum ipsum ab, quasi iusto pariatur quidem neque officia nostrum id temporibus. Aut officiis corporis molestiae beatae voluptatibus accusantium dolor qui repellendus ab, deserunt officia! Obcaecati nesciunt magnam sit facilis ipsum, laudantium nam cupiditate saepe? Omnis nostrum error iure assumenda velit veniam iusto veritatis. Pariatur, magnam! Officia unde dolores tempore fugiat laudantium minus, vero reiciendis eos eligendi in at. Deserunt vitae odit maiores explicabo eum quo tempore consectetur dicta magni. Dignissimos vel sequi iure sint enim saepe nam velit nostrum, qui doloremque suscipit unde quo veniam debitis beatae animi! Corrupti placeat, quo totam ipsam temporibus recusandae est iste molestias autem quidem nemo quos at, dolore harum inventore similique repudiandae facilis ratione tempora expedita. Ipsam quisquam dolorum aliquam magnam suscipit iusto in est consectetur hic ad, maiores id corporis. Temporibus ex assumenda labore in, ea totam perspiciatis ad, ipsa, eius eaque quas distinctio non reprehenderit quia quis commodi illum? Repellendus voluptatem velit aperiam, soluta pariatur ratione doloremque debitis, illum repudiandae possimus culpa labore placeat. Nostrum sit aliquam, ut amet possimus officia quod quis tempora velit fugit, officiis sunt aut minus earum totam nesciunt, molestiae voluptates est tempore excepturi! Dolorum, hic!"
+        text="Becoming   a leading African organization providing cutting-edge policy research, evaluation and training, that promote Africa’s socio-economic development. "
       />
       <Content
         title="Vission"
-        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, deleniti sunt, dolorum ipsum ab, quasi iusto pariatur quidem neque officia nostrum id temporibus. Aut officiis corporis molestiae beatae voluptatibus accusantium dolor qui repellendus ab, deserunt officia! Obcaecati nesciunt magnam sit facilis ipsum, laudantium nam cupiditate saepe? Omnis nostrum error iure assumenda velit veniam iusto veritatis. Pariatur, magnam! Officia unde dolores tempore fugiat laudantium minus, vero reiciendis eos eligendi in at. Deserunt vitae odit maiores explicabo eum quo tempore consectetur dicta magni. Dignissimos vel sequi iure sint enim saepe nam velit nostrum, qui doloremque suscipit unde quo veniam debitis beatae animi! Corrupti placeat, quo totam ipsam temporibus recusandae est iste molestias autem quidem nemo quos at, dolore harum inventore similique repudiandae facilis ratione tempora expedita. Ipsam quisquam dolorum aliquam magnam suscipit iusto in est consectetur hic ad, maiores id corporis. Temporibus ex assumenda labore in, ea totam perspiciatis ad, ipsa, eius eaque quas distinctio non reprehenderit quia quis commodi illum? Repellendus voluptatem velit aperiam, soluta pariatur ratione doloremque debitis, illum repudiandae possimus culpa labore placeat. Nostrum sit aliquam, ut amet possimus officia quod quis tempora velit fugit, officiis sunt aut minus earum totam nesciunt, molestiae voluptates est tempore excepturi! Dolorum, hic!"
+        text="Advocating excellence in research to ensure socio-economic transformation  and development of in Africa."
+      />
+      <BulletContent title="The objectives of AIPERD are:" text={bulletData1} />
+      <BulletContent
+        title="As an organization, AIPERD is guided by:"
+        text={bulletData2}
+      />
+      <Content
+        title="Partnership:"
+        text="AIPERD builds partnerships with diverse stakeholders, public and private institutions, as well as non-governmental organizations. Our delivery partners, professionals and consultants ensure timely execution of tasks,   with a common purpose of ensuring professionalism integrity."
+      />
+      <Content
+        title="Centers:"
+        text="AIPERD operates the following Centers:
+
+        Center for Economic and Social Research. The Center conducts research on issues including, but not limited to, applied macro and micro economics and social trends. This unit focuses on issues relating to education, labour, health, environment, and gender.
+        
+        Center for Training and Development: The Center engages in relevant training and capacity building for individuals and organizations,  focusing on public policy research and advocacy, monitoring and evaluation, and project management.
+        Center for Advocacy and Financial Mobilization: Advocating for policy reforms and mobilizing financial and relevant resources remain the focus of this center.  
+        "
       />
       <OurTeam />
     </>
