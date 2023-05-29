@@ -13,7 +13,7 @@ import { ourteamAll } from "../data";
 const OurTeamMain = () => {
   return (
     <>
-      <TopBanner img={Image} title="What we do" text="Out honoured team " />
+      <TopBanner img={Image} title="What we do" text="Our honoured team " />
 
       <section className="our-team-main">
         <OurTeamCard array={ourteamAll} />
