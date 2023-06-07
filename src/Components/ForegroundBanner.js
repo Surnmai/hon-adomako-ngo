@@ -23,21 +23,21 @@ const ForegroundBanner = () => {
               <FaAward />
               <div className="content">
                 <h3>365</h3>
-                <small>total awards</small>
+                <small> awards</small>
               </div>
             </div>
             <div className="box">
               <FaHandsHelping />
               <div className="content">
                 <h3>365</h3>
-                <small>total awards</small>
+                <small>partners</small>
               </div>
             </div>
             <div className="box">
               <FaProjectDiagram />
               <div className="content">
                 <h3>365</h3>
-                <small>total awards</small>
+                <small>projects</small>
               </div>
             </div>
           </div>

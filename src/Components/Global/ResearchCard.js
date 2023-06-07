@@ -16,9 +16,9 @@ const ResearchCard = ({ array, title }) => {
                 <img src={image} alt={title} />
               </div>
               <div className="content">
-                <div className="time">
+                {/* <div className="time">
                   {icon} <p>{time}</p>
-                </div>
+                </div> */}
                 <h3 className="title">{title}</h3>
                 <article>{text}</article>
                 <Link className="link" to={`/readmore/${id}`}>
