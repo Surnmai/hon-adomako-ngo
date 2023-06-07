@@ -9,7 +9,7 @@ const ResearchCard = ({ array, title }) => {
       <h3 className="title">{title}</h3>
       <div className="container">
         {array.map((recent) => {
-          const { id, image, icon, time, title, text, readMore } = recent;
+          const { id, image, title, text, readMore } = recent;
           return (
             <div className="box" key={id}>
               <div className="image">
