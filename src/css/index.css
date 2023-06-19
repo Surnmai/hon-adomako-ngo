@@ -511,7 +511,6 @@ footer .copyright {
 }
 .our-team-main .container .box:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
-  cursor: pointer;
 }
 .our-team-main .container .box .image {
   height: 30rem;
@@ -536,9 +535,11 @@ footer .copyright {
   font-size: 2.5rem;
 }
 .our-team-main .container .box .content article {
-  font-size: 1.4rem;
-  color: #666;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 500;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
 }
 
 .readMore img {
