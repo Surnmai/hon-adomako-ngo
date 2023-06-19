@@ -166,9 +166,9 @@ export const ourteam = [
   },
   {
     image: OurTeam2,
-    name: "hon. Adomako Mensah",
-    title: "President",
-    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+    name: "Professor Charles O. Kwarteng",
+    title: "Researcher",
+    text: "an accomplished researcher and academic with expertise in public and international affairs, European cooperation's impact on ACP nations, and organizational theory, who has published influential books and articles, held key academic positions, mentored researchers, and actively contributed to community development.",
   },
   {
     image: OurTeam3,
