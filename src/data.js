@@ -162,7 +162,7 @@ export const ourteam = [
     image: OurTeam1,
     name: "hon. Adomako Mensah",
     title: "President",
-    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+    text: " a dedicated Member of Parliament for Sekyere Afram Plains, with a strong background in banking, extensive expertise in financial services research, and a notable role in shaping policies through active participation in parliamentary committees and influential think tanks, making him a knowledgeable and influential figure in shaping evidence-based policies for financial services and related sectors.",
   },
   {
     image: OurTeam2,
@@ -184,7 +184,7 @@ export const ourteamAll = [
     image: OurTeam1,
     name: "hon. Adomako Mensah",
     title: "President",
-    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+    text: " a dedicated Member of Parliament for Sekyere Afram Plains, with a strong background in banking, extensive expertise in financial services research, and a notable role in shaping policies through active participation in parliamentary committees and influential think tanks, making him a knowledgeable and influential figure in shaping evidence-based policies for financial services and related sectors.",
   },
   {
     image: OurTeam2,
@@ -200,9 +200,9 @@ export const ourteamAll = [
   },
   {
     image: OurTeam4,
-    name: "hon. Adomako Mensah",
+    name: "Rosinah Simah Agyapomaa",
     title: "President",
-    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+    text: "a philanthropist with a degree in the study of religions, who has worked in various roles including marketing, production management, and operations, and has a passion for economic empowerment, particularly for women and persons with disabilities.",
   },
 ];
 
