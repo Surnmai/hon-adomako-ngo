@@ -9,14 +9,26 @@ const Mission = () => {
       <section className="mission">
         <div className="content">
           <h3 className="title">Our mission & vision</h3>
+
           <p>
-            Empowering African communities to strive to see innovative ideas
-            that are put into implementation, to augment skills and talents for
-            development.
+            AIPERD is an African-owned and managed think tank operating at the
+            intersection of research, policy, and practice, providing advice,
+            insights, and expertise to address development challenges. Through
+            evidence-based analysis, capacity building, and goal-directed
+            initiatives, they foster innovation and inform policymaking for
+            sustainable development in developing nations.
           </p>
           <p>
-            The organization would become a catalyst for sustainable and
-            empowered African development
+            AIPERD's vision is to advocate excellence in evidence-based research
+            for Africa's socio-economic transformation and development,
+            empowering African institutions through innovative ideas and local
+            talent augmentation. Our mission is to be a leading African
+            organization providing cutting-edge policy research, evaluation, and
+            training, promoting socio-economic development through
+            evidence-based research, policy analysis, and advocacy. AIPERD
+            serves as a catalyst for sustainable and empowered African
+            development through research, capacity building, and fostering
+            networks of leaders.
           </p>
         </div>
         <div className="image">
