@@ -526,13 +526,29 @@ footer {
 // about-us section starts
 .about-us {
   h3 {
-    font-size: 2.5rem;
-    line-height: 1.6;
+    font-size: 2rem;
+    line-height: 1;
+    margin-top: 2rem;
   }
   article {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.6;
+    letter-spacing: 0.1rem;
     padding: 0.2rem 0;
+    color: $dark-black;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  ol {
+    li {
+      list-style-type: disc;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      letter-spacing: 0.1rem;
+      padding: 0.2rem 0;
+      color: $dark-black;
+      font-weight: 600;
+    }
   }
 }
 // about-us section ends

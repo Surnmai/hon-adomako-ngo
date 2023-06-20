@@ -206,33 +206,100 @@ export const ourteamAll = [
   },
 ];
 
-export const bulletData1 = [
+// export const bulletData1 = [
+//   {
+//     text: "To undertake relevant research that would enhance development and transformation of Africa",
+//   },
+//   {
+//     text: "To engage in national and international development-oriented advocacy",
+//   },
+//   {
+//     text: "To write, issue, and publish development-oriented reports, articles, books, and policy position papers.",
+//   },
+//   {
+//     text: "To educate the public about important economic and social issues",
+//   },
+//   {
+//     text: "To champion policy reforms that enhance the economic development of Africa",
+//   },
+// ];
+
+// export const bulletData2 = [
+//   {
+//     text: "Transparency and openness in dealing with the public",
+//   },
+//   {
+//     text: "Ethical Responsibility as a guiding principle in conducting activities",
+//   },
+//   {
+//     text: "Excellence and Professionalism",
+//   },
+// ];
+
+export const textWithTittle = [
   {
-    text: "To undertake relevant research that would enhance development and transformation of Africa",
+    tittle: "",
+    text: "The African Institute for Policy Evaluation Research and Development (AIPERD) is an independent non-profit think tank based in Ghana. It focuses on policy advice, advocacy, and training to build capacity in developing countries, relying on cutting-edge research. AIPERD develops partnerships and linkages with research organizations and development partners, conducts research, provides professional and competent policy analysis, advice, and advocacy to enhance capacity building in the areas of education, health, environment, entrepreneurship, and governance. Additionally, the institution offers advisory services and expertise in macroeconomic fiscal policy management. Its team of experts possesses diverse competencies spanning business, finance, banking, economics, public policy, and law.",
   },
   {
-    text: "To engage in national and international development-oriented advocacy",
+    tittle: "Partnerships",
+    text: "We actively partner with stakeholders and provide assistance to institutions, organizations, and policy makers across a wide range of policies. Our aim is to share expertise and knowledge with like-minded organizations, fostering capacity building. In line with our commitment to inclusiveness, we collaborate with partners to drive positive developmental changes in critical areas such as education, health, environment, and population issues. We advocate for policies that promote inclusiveness in education, health, and equitable sharing of environmental resources. Through our partnerships with small and medium-sized enterprises, we support communities in developing local capacity and provide expertise and resources that transcend regions and communities. We believe that this strategy facilitates trade and socio-economic interactions among communities in developing nations. Our delivery partners, professionals, and consultants ensure timely execution of tasks, driven by professionalism and integrity. By leveraging our partnerships, we harness the talents of individuals with innovative ideas to ensure successful task execution.",
   },
   {
-    text: "To write, issue, and publish development-oriented reports, articles, books, and policy position papers.",
+    tittle: "About Us",
+    text: "AIPERD is an African-owned and managed non-governmental, non-profit think tank that provides advice, insights, and professional expertise to policy makers, institutions, philanthropists, and stakeholders in addressing development challenges. Operating at the nexus of research, policy, and practice, we believe this approach fosters innovation through evidence-based analysis, promoting capacity building in developing nations. We prioritize goal-directed development initiatives informed by rigorous research and analysis. Our team consists of specialists and professionals with experience engaging with high-level policy makers and leaders in academic and educational institutions. They possess extensive global experience and have published groundbreaking research articles in reputable media, which significantly enhances AIPERD's credibility.",
   },
   {
-    text: "To educate the public about important economic and social issues",
+    tittle: "Vission",
+    text: "AIPERD's vision is founded on advocating excellence in evidence-based research to foster the socio-economic transformation and development of Africa. We envision an empowered African institution capable of harnessing innovative ideas to enhance local skills and talents for sustainable development.",
   },
   {
-    text: "To champion policy reforms that enhance the economic development of Africa",
+    tittle: "Mission",
+    text: "Our mission is to become a leading African organization providing cutting-edge policy research, evaluation and training that promote Africa’s socio-economic development. We conduct evidence-based research, engage in policy analysis in support of building essential local capacity, and advocacy, to ensure efficient utilization of innovative ideas. AIPERD WOULD CONTINUE TO BE A CATALYST FOR SUSTAINABLE AND EMPOWERED AFRICAN DEVELOPMENT, THROUGH THREE ESSENTIAL PATHS: EVIDENCE-BASED RESEARCH, POLICY ADVICE, AND ADVOCACY.To this end, AIPERD undertakes innovative research into relevant policy issues, and analyze trends that facilitate training, education and advocacy on key development issues.  We provide innovative insights into trends that impact development. We build network of leaders to ensure capacity building.",
+  },
+  {
+    tittle: "Objectives",
+    text: "AIPERD is anchored on robust research and analysis that are grounded in local realities. The organization is based on core objectives, which serve as guiding principles to help us address the challenges of development in Africa.",
   },
 ];
 
-export const bulletData2 = [
+export const bulletText = [
   {
-    text: "Transparency and openness in dealing with the public",
+    bold: "The objectives of AIPERD are:",
+    text1:
+      "To undertake relevant research that would enhance the socio-economic transformation of developing nations.",
+    text2:
+      "To engage in national and international development-oriented advocacy.",
+    text3:
+      "To write, issue, and publish development-oriented reports, articles, books, and policy position papers.",
+    text4:
+      "To educate the public about important economic and social issues affecting developing nations.",
+    text5:
+      "To educate the public about important economic and social issues affecting developing nations.",
   },
   {
-    text: "Ethical Responsibility as a guiding principle in conducting activities",
+    bold: "Values",
+    article:
+      "AIPERD operates within a set of values that serve as our guiding principles. We all it the “TEEI” Principles. The core values shape AIPRED’s operations that allow the organization to offer impartial analysis and policy recommendations on issues that are researched by the organization. We believe that, our analysis impact people and societies, in terms of health, education and policy initiatives.",
+    text1: "Transparency and openness in dealing with the public.",
+    text2:
+      "Ethical Responsibility as a guiding principle in conducting activities.",
+    text3:
+      "Excellence and Professionalism. We believe in high ethical standards in work, guided by the standard of accuracy, evidenced-based positions, and objective analysis.",
+    text4:
+      "Integrity: We believe in building trust and credibility in dealing with partners and the communities that we engage with.  Such an approach provides lasting trust and support that enhance the sustainability of our programs.",
+    text5: "",
   },
   {
-    text: "Excellence and Professionalism",
+    bold: "Operating Centers",
+    article:
+      "Benefiting from a team of experts, AIPERD innovatively saw the need to operate centers that would allow us to offer contribution to policy and best practices. Accordingly, AIPERD operates the following Centers:",
+    text1:
+      "CENTER FOR ECONOMIC AND SOCIAL RESEARCH CESR). The Center conducts research on issues including, but not limited to, applied macroeconomics.  This unit focuses on trending issues relating to education, labour, health, environment, and gender.   The analysis of these trends informs AIPERD on what recommendations would be necessary to address the issues.",
+    text2:
+      "CENTER FOR TRAINING, INNOVATION AND DEVELOPMENT (CTID): The Center engages in relevant training and capacity building for individuals and organizations, focusing on public policy research and advocacy, monitoring and evaluation, as well as project management.  AIPERD believes that these training and development programmes, allow both practitioners and new entrants to the business and professional world, to gain exposure to innovative ideas. The Center enhances institutional capacity through training, networks, and internships.  Educational and professional development programmes that target capacity building are supported.  African societies are impacted by a digital revolution and technological advancement.  The Center aims at putting Africa and Africans on a higher level on the frontiers of innovation and digital revolution.",
+    text3:
+      "CENTER FOR ADVOCACY (CA): Advocating for policy reforms remains the focus of this Center.  Our advocacy uses education tools to solve developmental issues that AIPERD uncovers.  The Center is operated by a team with wide experience in engaging grassroot communities, as well as policy makers who shape local and national development agenda.",
   },
 ];
 

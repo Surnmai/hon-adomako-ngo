@@ -365,7 +365,7 @@ header .icons svg:hover {
 }
 .our-team .container .box .content article {
   font-size: 1.2rem;
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: 500;
   line-height: 1.8rem;
   letter-spacing: 0.1rem;
@@ -438,13 +438,27 @@ footer .copyright {
 }
 
 .about-us h3 {
-  font-size: 2.5rem;
-  line-height: 1.6;
+  font-size: 2rem;
+  line-height: 1;
+  margin-top: 2rem;
 }
 .about-us article {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 1.6;
+  letter-spacing: 0.1rem;
   padding: 0.2rem 0;
+  color: rgb(0, 0, 0);
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.about-us ol li {
+  list-style-type: disc;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: 0.1rem;
+  padding: 0.2rem 0;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
 }
 
 .research-page .container {
@@ -536,7 +550,7 @@ footer .copyright {
 }
 .our-team-main .container .box .content article {
   font-size: 1.2rem;
-  color: black;
+  color: rgb(0, 0, 0);
   font-weight: 500;
   line-height: 1.8rem;
   letter-spacing: 0.1rem;
