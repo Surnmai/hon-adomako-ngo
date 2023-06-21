@@ -238,7 +238,8 @@ export const ourteamAll = [
 
 export const textWithTittle = [
   {
-    tittle: "",
+    tittle:
+      "African Institute For Policy Evaluation Research And Development (AIPERD)",
     text: "The African Institute for Policy Evaluation Research and Development (AIPERD) is an independent non-profit think tank based in Ghana. It focuses on policy advice, advocacy, and training to build capacity in developing countries, relying on cutting-edge research. AIPERD develops partnerships and linkages with research organizations and development partners, conducts research, provides professional and competent policy analysis, advice, and advocacy to enhance capacity building in the areas of education, health, environment, entrepreneurship, and governance. Additionally, the institution offers advisory services and expertise in macroeconomic fiscal policy management. Its team of experts possesses diverse competencies spanning business, finance, banking, economics, public policy, and law.",
   },
   {
