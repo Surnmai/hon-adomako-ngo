@@ -539,9 +539,33 @@ footer {
     margin-top: 1rem;
     font-weight: 600;
   }
+  // ol {
+  //   li {
+  //     list-style-type: disc;
+  //     font-size: 1.2rem;
+  //     line-height: 1.6;
+  //     letter-spacing: 0.1rem;
+  //     padding: 0.2rem 0;
+  //     color: $dark-black;
+  //     font-weight: 600;
+  //   }
+  // }
+}
+
+.about-us-card-section {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+.about-us-card {
+  background: $light-yellow;
+  box-shadow: $box-shadow;
+  padding: 2rem 3rem;
+  // margin: 0.2rem 0;
+
   ol {
+    // overflow-x: auto;
     li {
-      list-style-type: disc;
+      list-style-type: square;
       font-size: 1.2rem;
       line-height: 1.6;
       letter-spacing: 0.1rem;
@@ -549,6 +573,18 @@ footer {
       color: $dark-black;
       font-weight: 600;
     }
+  }
+  h3 {
+    // color: $;
+  }
+  article {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    letter-spacing: 0.1rem;
+    padding: 0.2rem 0;
+    color: $dark-black;
+    margin-top: 1rem;
+    font-weight: 400;
   }
 }
 // about-us section ends

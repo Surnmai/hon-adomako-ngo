@@ -451,14 +451,34 @@ footer .copyright {
   margin-top: 1rem;
   font-weight: 600;
 }
-.about-us ol li {
-  list-style-type: disc;
+
+.about-us-card-section {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.about-us-card {
+  background: #fcedc6;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
+  padding: 2rem 3rem;
+}
+.about-us-card ol li {
+  list-style-type: square;
   font-size: 1.2rem;
   line-height: 1.6;
   letter-spacing: 0.1rem;
   padding: 0.2rem 0;
   color: rgb(0, 0, 0);
   font-weight: 600;
+}
+.about-us-card article {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  letter-spacing: 0.1rem;
+  padding: 0.2rem 0;
+  color: rgb(0, 0, 0);
+  margin-top: 1rem;
+  font-weight: 400;
 }
 
 .research-page .container {
