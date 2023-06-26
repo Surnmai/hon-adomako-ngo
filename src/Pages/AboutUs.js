@@ -5,13 +5,19 @@ import About from "../images/about.jpg";
 
 // import components
 import TopBanner from "../Components/Global/TopBanner";
-// import ObjectiveCard from "../Components/Global/ObjectiveCard";
-import BulletContent from "../Components/Global/BulletContent";
+import ValuesCard from "../Components/Global/ValuesData";
+import ObjectiveData from "../Components/Global/ObjectiveData";
 import OurTeam from "../Components/OurTeam";
 import DataWithTittle from "../Components/Global/DataWithTittle";
+import OpDataObj from "../Components/Global/OpCentreData";
 
 // import objects
-import { textWithTittle, bulletText } from "../data";
+import {
+  textWithTittle,
+  objectiveData,
+  valuesData,
+  opCentreData,
+} from "../data";
 
 const AboutUs = () => {
   return (
@@ -23,8 +29,16 @@ const AboutUs = () => {
         })}
       </section>
 
-      {bulletText.map((bullets, index) => {
-        return <BulletContent key={index} {...bullets} />;
+      {objectiveData.map((bullets, index) => {
+        return <ObjectiveData key={index} {...bullets} />;
+      })}
+
+      {valuesData.map((bullets, index) => {
+        return <ValuesCard key={index} {...bullets} />;
+      })}
+
+      {opCentreData.map((bullets, index) => {
+        return <OpDataObj key={index} {...bullets} />;
       })}
       {/* <Content
         // title="AIPERD is an African-managed and African-owned non-governmental, non-religious, development-focused organization, with the aim to enhance Africa’s socio-economic development, through evidence-based policy making and capacity building. We are committed to supporting evidence-driven research"

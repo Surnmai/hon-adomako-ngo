@@ -264,7 +264,7 @@ export const textWithTittle = [
   },
 ];
 
-export const bulletText = [
+export const objectiveData = [
   {
     bold: "The objectives of AIPERD are:",
     text1:
@@ -278,6 +278,9 @@ export const bulletText = [
     text5:
       "To educate the public about important economic and social issues affecting developing nations.",
   },
+];
+
+export const valuesData = [
   {
     bold: "Values",
     article:
@@ -291,6 +294,9 @@ export const bulletText = [
       "Integrity: We believe in building trust and credibility in dealing with partners and the communities that we engage with.  Such an approach provides lasting trust and support that enhance the sustainability of our programs.",
     text5: "",
   },
+];
+
+export const opCentreData = [
   {
     bold: "Operating Centers",
     article:
