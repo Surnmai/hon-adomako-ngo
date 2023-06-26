@@ -201,7 +201,7 @@ export const ourteamAll = [
   {
     image: OurTeam4,
     name: "Rosinah Simah Agyapomaa",
-    title: "President",
+    title: "Project Coordniator",
     text: "a philanthropist with a degree in the study of religions, who has worked in various roles including marketing, production management, and operations, and has a passion for economic empowerment, particularly for women and persons with disabilities.",
   },
 ];

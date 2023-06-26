@@ -453,8 +453,8 @@ footer .copyright {
 }
 
 .about-us-card-section {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .about-us-card {
@@ -462,14 +462,17 @@ footer .copyright {
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.05);
   padding: 2rem 3rem;
 }
-.about-us-card ol li {
+.about-us-card ul li {
   list-style-type: square;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6;
   letter-spacing: 0.1rem;
   padding: 0.2rem 0;
   color: rgb(0, 0, 0);
   font-weight: 600;
+}
+.about-us-card h3 {
+  font-size: 1.5rem;
 }
 .about-us-card article {
   font-size: 1.3rem;

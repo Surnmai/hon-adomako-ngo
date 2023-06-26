@@ -553,8 +553,8 @@ footer {
 }
 
 .about-us-card-section {
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .about-us-card {
   background: $light-yellow;
@@ -562,11 +562,11 @@ footer {
   padding: 2rem 3rem;
   // margin: 0.2rem 0;
 
-  ol {
+  ul {
     // overflow-x: auto;
     li {
       list-style-type: square;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       line-height: 1.6;
       letter-spacing: 0.1rem;
       padding: 0.2rem 0;
@@ -575,7 +575,7 @@ footer {
     }
   }
   h3 {
-    // color: $;
+    font-size: 1.5rem;
   }
   article {
     font-size: 1.3rem;
