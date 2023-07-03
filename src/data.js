@@ -172,9 +172,9 @@ export const ourteam = [
   },
   {
     image: OurTeam3,
-    name: "hon. Adomako Mensah",
+    name: "Mr. Samuel Quarshigah Ayitey",
     title: "President",
-    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+    text: "Samuel Quarshigah Ayitey is a business consultant and advisor with expertise in investment banking, SME advisory services, real estate development and management, construction management, healthcare, sustainable business and product development, corporate restructuring and transformation, and private sector development. He holds Master of Business Administration degrees in Finance from Maastricht School of Management, the Netherlands, and Bangor University, UK, and is also a Chartered Banker from the Chartered Institute of Bankers in Scotland, UK.",
   },
 ];
 
@@ -194,9 +194,9 @@ export const ourteamAll = [
   },
   {
     image: OurTeam3,
-    name: "hon. Adomako Mensah",
+    name: "Mr. Samuel Quarshigah Ayitey",
     title: "President",
-    text: "Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ipsa Placeat Laborum Voluptatum Quaerat, Numquam Blanditiis Ad Voluptates, Veniam",
+    text: "Samuel Quarshigah Ayitey is a business consultant and advisor with expertise in investment banking, SME advisory services, real estate development and management, construction management, healthcare, sustainable business and product development, corporate restructuring and transformation, and private sector development. He holds Master of Business Administration degrees in Finance from Maastricht School of Management, the Netherlands, and Bangor University, UK, and is also a Chartered Banker from the Chartered Institute of Bankers in Scotland, UK.",
   },
   {
     image: OurTeam4,
