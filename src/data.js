@@ -173,7 +173,7 @@ export const ourteam = [
   {
     image: OurTeam3,
     name: "Mr. Samuel Quarshigah Ayitey",
-    title: "President",
+    title: "Researchr",
     text: "Samuel Quarshigah Ayitey is a business consultant and advisor with expertise in investment banking, SME advisory services, real estate development and management, construction management, healthcare, sustainable business and product development, corporate restructuring and transformation, and private sector development. He holds Master of Business Administration degrees in Finance from Maastricht School of Management, the Netherlands, and Bangor University, UK, and is also a Chartered Banker from the Chartered Institute of Bankers in Scotland, UK.",
   },
 ];
