@@ -1,9 +1,9 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useState, useContext, useEffect, createContext } from "react";
 
 // import data
 // import { recentProjects } from "./data";
 
-export const AppContext = React.createContext();
+export const AppContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
   const [menuBar, setMenuBar] = useState(false);
