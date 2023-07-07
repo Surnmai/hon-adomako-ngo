@@ -435,6 +435,7 @@ footer .copyright {
   color: #666;
   text-align: center;
   padding: 2rem 0;
+  text-transform: none;
 }
 
 .about-us h3 {

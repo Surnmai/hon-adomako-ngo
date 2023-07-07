@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         <p className="copyright">
-          &copy; {new Date().getFullYear()} aiperdlbg | By nmaitech@outlook.com
+          &copy; {new Date().getFullYear()} Aiperdlbg | By nmaitech@outlook.com
         </p>
       </footer>
     </>
