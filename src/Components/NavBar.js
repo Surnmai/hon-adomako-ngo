@@ -21,6 +21,7 @@ import { navLinks } from "../data";
 
 // import components
 import NavLinks from "./Global/NavLinks";
+import Button from "./Global/Button";
 
 // import context API
 import { useGlobalContext } from "../context";
@@ -42,7 +43,7 @@ const NavBar = () => {
           <button onClick={() => setMenuBar(!menuBar)}>
             {menuBar ? <FaTimes id="menu-bars" /> : <FaBars id="menu-bars" />}
           </button>
-          <Link to="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
+          {/* <Link to="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
             <FaFacebookSquare className="social-icons" />
           </Link>
           <Link to="https://www.instagram.com/" target="_blank">
@@ -50,7 +51,12 @@ const NavBar = () => {
           </Link>
           <Link to="https://www.linkedin.com/" target="_blank">
             <FaLinkedin className="social-icons" />
-          </Link>
+          </Link> */}
+
+          <Button
+            name={"Donate"}
+            path={"https://paystack.com/gh/countries?q=/countries"}
+          />
         </div>
       </header>
     </>
