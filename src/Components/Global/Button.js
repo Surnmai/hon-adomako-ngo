@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Button = ({ name, path }) => {
+const Button = ({ name, path, target }) => {
   return (
-    <Link to={path} className="btn">
+    <Link to={path} target={target} className="btn">
       {name}
     </Link>
   );

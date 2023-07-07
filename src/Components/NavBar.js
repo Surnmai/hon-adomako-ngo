@@ -56,6 +56,7 @@ const NavBar = () => {
           <Button
             name={"Donate"}
             path={"https://paystack.com/gh/countries?q=/countries"}
+            target={"_blank"}
           />
         </div>
       </header>
