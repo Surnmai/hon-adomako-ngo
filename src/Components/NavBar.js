@@ -1,13 +1,7 @@
 import React from "react";
 
 // import icons
-import {
-  FaBars,
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaLinkedin,
-  FaTimes,
-} from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 // import logo icons
 import Logo from "../images/logo1.jpg";
