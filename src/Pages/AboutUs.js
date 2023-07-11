@@ -22,7 +22,7 @@ import {
 const AboutUs = () => {
   return (
     <>
-      <TopBanner img={About} title="About Us" text="Who we are?" />
+      <TopBanner img={About} title="About Us" text="Who we are" />
       <section className="about-us">
         {textWithTittle.map((content, index) => {
           return <DataWithTittle key={index} {...content} />;
