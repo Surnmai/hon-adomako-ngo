@@ -7,10 +7,10 @@ import Project2 from "./images/project2.jpg";
 import Project3 from "./images/project3.jpg";
 import Project4 from "./images/project4.jpg";
 import Project5 from "./images/project5.jpg";
-import Project6 from "./images/project6.jpg";
-import Project7 from "./images/project7.jpg";
-import Project8 from "./images/project8.jpg";
-import Project9 from "./images/project9.jpg";
+// import Project6 from "./images/project6.jpg";
+// import Project7 from "./images/project7.jpg";
+// import Project8 from "./images/project8.jpg";
+// import Project9 from "./images/project9.jpg";
 
 import OurTeam1 from "./images/ourteam1.jpg";
 import OurTeam2 from "./images/ourteam2.jpg";
