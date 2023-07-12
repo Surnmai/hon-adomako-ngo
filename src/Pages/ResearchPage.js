@@ -26,9 +26,9 @@ const Research = () => {
     <>
       <TopBanner img={Image} title="Research" text="Recent Research" />
       <section className="research-page">
-        <ResearchCard array={filteredData} title="African History" />
-        <ResearchCard array={SecfilteredData} title="African Culture" />
-        <ResearchCard array={ThirdfilteredData} title="African Tradition" />
+        <ResearchCard array={filteredData} />
+        <ResearchCard array={SecfilteredData} />
+        {/* <ResearchCard array={ThirdfilteredData} /> */}
       </section>
     </>
   );
