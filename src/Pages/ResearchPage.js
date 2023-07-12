@@ -17,9 +17,9 @@ const SecfilteredData = recentProjects.filter(
 );
 
 // filter data according to description for first
-const ThirdfilteredData = recentProjects.filter(
-  (recent) => recent.desc === "third"
-);
+// const ThirdfilteredData = recentProjects.filter(
+//   (recent) => recent.desc === "third"
+// );
 
 const Research = () => {
   return (
