@@ -61,7 +61,7 @@ const Footer = () => {
           <div className="box">
             <div className="address">
               <p>address: </p>
-              <p>P.O. Box 1234, Accra</p>
+              <p>P.O. Box Nii Oworsika Road, Tabola Accra, GA-464-5136</p>
             </div>
             <div className="phone">
               <p>phone: </p>
