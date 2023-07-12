@@ -24,6 +24,7 @@ import {
   FaInstagramSquare,
   FaLinkedin,
 } from "react-icons/fa";
+import Button from "./Global/Button";
 
 const Footer = () => {
   return (
@@ -51,6 +52,11 @@ const Footer = () => {
                   <FaLinkedin className="social-icons" />
                 </Link>
               </div>
+              <Button
+                name={"Donate"}
+                path={"https://paystack.com/gh/countries?q=/countries"}
+                target={"_blank"}
+              />
             </div>
           </div>
           <div className="box">

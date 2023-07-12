@@ -46,8 +46,8 @@ footer {
 
   &:hover {
     background: $bright-yellow;
-    font-size: 1.8rem;
-    font-weight: 600;
+    // font-size: 1.8rem;
+    // font-weight: 600;
   }
 }
 
@@ -471,12 +471,21 @@ footer {
         .socials {
           font-size: 4rem;
           svg {
-            margin: 2.5rem 0.5rem;
+            margin: 1.2rem 0.5rem;
             color: $black;
             &:hover {
               transform: translateY(-1rem);
               transition: 0.4s linear;
             }
+          }
+        }
+        .btn {
+          color: $yellow;
+          background: $black;
+          margin: 0;
+          &:hover {
+            transform: translateY(-1rem);
+            transition: 0.4s linear;
           }
         }
       }
@@ -831,6 +840,9 @@ footer {
         }
       }
       .social-icons {
+        display: none;
+      }
+      .btn {
         display: none;
       }
     }

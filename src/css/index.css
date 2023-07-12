@@ -39,8 +39,6 @@ footer {
 }
 .btn:hover {
   background: #ffe900;
-  font-size: 1.8rem;
-  font-weight: 600;
 }
 
 .title {
@@ -398,10 +396,19 @@ footer .top .box .logo-socials .socials {
   font-size: 4rem;
 }
 footer .top .box .logo-socials .socials svg {
-  margin: 2.5rem 0.5rem;
+  margin: 1.2rem 0.5rem;
   color: #130f40;
 }
 footer .top .box .logo-socials .socials svg:hover {
+  transform: translateY(-1rem);
+  transition: 0.4s linear;
+}
+footer .top .box .logo-socials .btn {
+  color: #f2c94c;
+  background: #130f40;
+  margin: 0;
+}
+footer .top .box .logo-socials .btn:hover {
   transform: translateY(-1rem);
   transition: 0.4s linear;
 }
@@ -701,6 +708,9 @@ footer .copyright {
     display: inline-block;
   }
   header .icons .social-icons {
+    display: none;
+  }
+  header .icons .btn {
     display: none;
   }
   .hero .content {
