@@ -223,9 +223,10 @@ header {
       color: $light-color;
       letter-spacing: 0.1rem;
       margin: 0.5rem 0;
-      // text-align: justify;
+      text-align: justify;
       line-height: 1.5;
       font-size: 1.4rem;
+      text-transform: none;
     }
   }
   .image {
@@ -443,6 +444,7 @@ header {
           font-weight: 500;
           line-height: 1.8rem;
           letter-spacing: 0.1rem;
+          text-transform: none;
         }
       }
     }
@@ -549,6 +551,7 @@ footer {
     color: $dark-black;
     margin-top: 1rem;
     font-weight: 600;
+    text-transform: none;
   }
   // ol {
   //   li {
@@ -583,6 +586,7 @@ footer {
       padding: 0.2rem 0;
       color: $dark-black;
       font-weight: 600;
+      text-transform: none;
     }
   }
   h3 {
@@ -596,6 +600,7 @@ footer {
     color: $dark-black;
     margin-top: 1rem;
     font-weight: 400;
+    text-transform: none;
   }
 }
 // about-us section ends
@@ -699,6 +704,8 @@ footer {
           font-weight: 500;
           line-height: 1.8rem;
           letter-spacing: 0.1rem;
+          // text-align: justify;
+          text-transform: none;
         }
       }
     }
@@ -723,6 +730,7 @@ footer {
     margin: 2rem 0;
     font-size: 1.5rem;
     line-height: 1.6;
+    text-transform: none;
     text-transform: none;
   }
 }

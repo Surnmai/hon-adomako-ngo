@@ -114,13 +114,13 @@ export const ourteam = [
     image: OurTeam1,
     name: "hon. Dr. Adomako Mensah",
     title: "President",
-    text: " a dedicated Member of Parliament for Sekyere Afram Plains, with a strong background in banking, extensive expertise in financial services research, and a notable role in shaping policies through active participation in parliamentary committees and influential think tanks, making him a knowledgeable and influential figure in shaping evidence-based policies for financial services and related sectors.",
+    text: " A dedicated Member of Parliament for Sekyere Afram Plains, with a strong background in banking, extensive expertise in financial services research, and a notable role in shaping policies through active participation in parliamentary committees and influential think tanks, making him a knowledgeable and influential figure in shaping evidence-based policies for financial services and related sectors.",
   },
   {
     image: OurTeam2,
     name: "Professor Charles O. Kwarteng",
     title: "Researcher",
-    text: "an accomplished researcher and academic with expertise in public and international affairs, European cooperation's impact on ACP nations, and organizational theory, who has published influential books and articles, held key academic positions, mentored researchers, and actively contributed to community development.",
+    text: "An accomplished researcher and academic with expertise in public and international affairs, European cooperation's impact on ACP nations, and organizational theory, who has published influential books and articles, held key academic positions, mentored researchers, and actively contributed to community development.",
   },
   {
     image: OurTeam3,
@@ -136,13 +136,13 @@ export const ourteamAll = [
     image: OurTeam1,
     name: "hon. Dr. Adomako Mensah",
     title: "President",
-    text: " a dedicated Member of Parliament for Sekyere Afram Plains, with a strong background in banking, extensive expertise in financial services research, and a notable role in shaping policies through active participation in parliamentary committees and influential think tanks, making him a knowledgeable and influential figure in shaping evidence-based policies for financial services and related sectors.",
+    text: " A dedicated Member of Parliament for Sekyere Afram Plains, with a strong background in banking, extensive expertise in financial services research, and a notable role in shaping policies through active participation in parliamentary committees and influential think tanks, making him a knowledgeable and influential figure in shaping evidence-based policies for financial services and related sectors.",
   },
   {
     image: OurTeam2,
     name: "Professor Charles O. Kwarteng",
     title: "Researcher",
-    text: "an accomplished researcher and academic with expertise in public and international affairs, European cooperation's impact on ACP nations, and organizational theory, who has published influential books and articles, held key academic positions, mentored researchers, and actively contributed to community development.",
+    text: "An accomplished researcher and academic with expertise in public and international affairs, European cooperation's impact on ACP nations, and organizational theory, who has published influential books and articles, held key academic positions, mentored researchers, and actively contributed to community development.",
   },
   {
     image: OurTeam3,
@@ -154,7 +154,7 @@ export const ourteamAll = [
     image: OurTeam4,
     name: "Rosinah Simah Agyapomaa",
     title: "Project Coordniator",
-    text: "a philanthropist with a degree in the study of religions, who has worked in various roles including marketing, production management, and operations, and has a passion for economic empowerment, particularly for women and persons with disabilities.",
+    text: "A philanthropist with a degree in the study of religions, who has worked in various roles including marketing, production management, and operations, and has a passion for economic empowerment, particularly for women and persons with disabilities.",
   },
 ];
 

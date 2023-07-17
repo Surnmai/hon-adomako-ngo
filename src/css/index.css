@@ -188,8 +188,10 @@ header .icons svg:hover {
   color: #666;
   letter-spacing: 0.1rem;
   margin: 0.5rem 0;
+  text-align: justify;
   line-height: 1.5;
   font-size: 1.4rem;
+  text-transform: none;
 }
 .mission .image {
   flex: 1 1 30rem;
@@ -368,6 +370,7 @@ header .icons svg:hover {
   font-weight: 500;
   line-height: 1.8rem;
   letter-spacing: 0.1rem;
+  text-transform: none;
 }
 .our-team .button {
   text-align: center;
@@ -459,6 +462,7 @@ footer .copyright {
   color: rgb(0, 0, 0);
   margin-top: 1rem;
   font-weight: 600;
+  text-transform: none;
 }
 
 .about-us-card-section {
@@ -479,6 +483,7 @@ footer .copyright {
   padding: 0.2rem 0;
   color: rgb(0, 0, 0);
   font-weight: 600;
+  text-transform: none;
 }
 .about-us-card h3 {
   font-size: 1.5rem;
@@ -491,6 +496,7 @@ footer .copyright {
   color: rgb(0, 0, 0);
   margin-top: 1rem;
   font-weight: 400;
+  text-transform: none;
 }
 
 .research-page .container {
@@ -587,6 +593,7 @@ footer .copyright {
   font-weight: 500;
   line-height: 1.8rem;
   letter-spacing: 0.1rem;
+  text-transform: none;
 }
 
 .readMore img {
@@ -605,6 +612,7 @@ footer .copyright {
   margin: 2rem 0;
   font-size: 1.5rem;
   line-height: 1.6;
+  text-transform: none;
   text-transform: none;
 }
 
