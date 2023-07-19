@@ -8,9 +8,23 @@ import Research from "../Components/Research";
 import BackgroundImgBanner from "../Components/BackgroundImgBanner";
 import OurTeam from "../Components/OurTeam";
 
+// import Helmet
+import { Helmet } from "react-helmet";
+
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>
+          Aiperdlbg | Africa Institute for Policy Evaluation Research and
+          Development.
+        </title>
+        <meta
+          name="description"
+          content="Aiperdlbg | Africa Institute for Policy Evaluation Research and
+      Development "
+        />
+      </Helmet>
       <Hero />
       <About />
       <ForegroundBanner />

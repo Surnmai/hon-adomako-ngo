@@ -6,6 +6,9 @@ import { useParams } from "react-router-dom";
 // import dat
 import { recentProjects } from "../data";
 
+// import Helmet
+import { Helmet } from "react-helmet";
+
 const Readmore = () => {
   const { id } = useParams();
   const readMore = recentProjects.find((recent) => recent.id === id);
@@ -14,6 +17,10 @@ const Readmore = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Aiperdlbg - {title}</title>
+        <meta name="description" content={text} />
+      </Helmet>
       <section className="readMore">
         <img src={image} alt={title} />
         <h1>{title}</h1>

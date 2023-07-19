@@ -8,6 +8,9 @@ import TopBanner from "../Components/Global/TopBanner";
 import ResearchCard from "../Components/Global/ResearchCard";
 import { recentProjects } from "../data";
 
+// import Helmet
+import { Helmet } from "react-helmet";
+
 // filter data according to description for first
 const filteredData = recentProjects.filter((recent) => recent.desc === "first");
 
@@ -24,6 +27,10 @@ const SecfilteredData = recentProjects.filter(
 const Research = () => {
   return (
     <>
+      <Helmet>
+        <title>Aiperdlbg - Projects</title>
+        <meta name="description" content="Aiperdlbg Projects " />
+      </Helmet>
       <TopBanner img={Image} title="Research" text="Recent Research" />
       <section className="research-page">
         <ResearchCard array={filteredData} />

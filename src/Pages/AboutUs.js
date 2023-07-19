@@ -19,9 +19,16 @@ import {
   opCentreData,
 } from "../data";
 
+// import Helmet
+import { Helmet } from "react-helmet";
+
 const AboutUs = () => {
   return (
     <>
+      <Helmet>
+        <title>Aiperdlbg - About</title>
+        <meta name="description" content="All about Aiperdlbg " />
+      </Helmet>
       <TopBanner img={About} title="About Us" text="Who we are" />
       <section className="about-us">
         {textWithTittle.map((content, index) => {
