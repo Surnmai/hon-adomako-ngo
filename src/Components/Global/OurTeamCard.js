@@ -6,7 +6,7 @@ const OurTeamCard = ({ array }) => {
       <h3 className="title">Meet our team</h3>
       <div className="container">
         {array.map((team, index) => {
-          const { image, name, title, text } = team;
+          const { image, name, title } = team;
           return (
             <div className="box" key={index}>
               <div className="image">
