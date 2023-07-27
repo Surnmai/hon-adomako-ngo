@@ -4,7 +4,7 @@ import React from "react";
 import { useGlobalContext } from "../../context";
 
 const OurTeamCard = ({ array }) => {
-  // const {}
+  const { isOpened } = useGlobalContext();
   return (
     <>
       <h3 className="title">Meet our team</h3>
@@ -13,7 +13,7 @@ const OurTeamCard = ({ array }) => {
           const { image, name, title } = team;
           return (
             // onclick event to execute a modal
-            <div className="box" key={index}>
+            <div className="box" key={index} onClick={() => isOpened()}>
               <div className="image">
                 <img src={image} alt={title} />
               </div>

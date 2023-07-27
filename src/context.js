@@ -7,20 +7,22 @@ export const AppContext = createContext();
 
 export const AppContextProvider = ({ children }) => {
   const [menuBar, setMenuBar] = useState(false);
+  const [opened, setOpened] = useState(false);
 
   const closeMenuBar = () => {
     setMenuBar(false);
   };
   const isOpened = () => {
-    setMenuBar(true);
+    setOpened(true);
+    console.log("Hello");
   };
   const isClosed = () => {
-    setMenuBar(false);
+    setOpened(false);
   };
 
   useEffect(() => {
     const handleScroll = () => {
-      closeMenuBar();
+      isClosed();
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -32,7 +34,7 @@ export const AppContextProvider = ({ children }) => {
 
   return (
     <AppContext.Provider
-      value={{ menuBar, setMenuBar, closeMenuBar, isOpened, isClosed }}
+      value={{ menuBar, setMenuBar, closeMenuBar, isOpened, isClosed, opened }}
     >
       {children}
     </AppContext.Provider>
