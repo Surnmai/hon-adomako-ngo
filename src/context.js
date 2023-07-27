@@ -12,17 +12,17 @@ export const AppContextProvider = ({ children }) => {
   const closeMenuBar = () => {
     setMenuBar(false);
   };
-  const isOpened = () => {
+  const openModal = () => {
     setOpened(true);
-    console.log("Hello");
+    // console.log("Hello");
   };
-  const isClosed = () => {
+  const closeModal = () => {
     setOpened(false);
   };
 
   useEffect(() => {
     const handleScroll = () => {
-      isClosed();
+      closeMenuBar();
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -34,7 +34,14 @@ export const AppContextProvider = ({ children }) => {
 
   return (
     <AppContext.Provider
-      value={{ menuBar, setMenuBar, closeMenuBar, isOpened, isClosed, opened }}
+      value={{
+        menuBar,
+        setMenuBar,
+        closeMenuBar,
+        openModal,
+        closeModal,
+        opened,
+      }}
     >
       {children}
     </AppContext.Provider>

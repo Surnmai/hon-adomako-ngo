@@ -3,8 +3,14 @@ import React from "react";
 // import Context
 import { useGlobalContext } from "../../context";
 
+// import components
+import Modal from "../Modal";
+
+// import OurTeamData
+import { ourteamAll } from "../../data";
+
 const OurTeamCard = ({ array }) => {
-  const { isOpened } = useGlobalContext();
+  const { openModal, opened } = useGlobalContext();
   return (
     <>
       <h3 className="title">Meet our team</h3>
@@ -13,7 +19,7 @@ const OurTeamCard = ({ array }) => {
           const { image, name, title } = team;
           return (
             // onclick event to execute a modal
-            <div className="box" key={index} onClick={() => isOpened()}>
+            <div className="box" key={index} onClick={() => openModal()}>
               <div className="image">
                 <img src={image} alt={title} />
               </div>
@@ -26,6 +32,11 @@ const OurTeamCard = ({ array }) => {
           );
         })}
       </div>
+      {/* {ourteamAll.map((team) => {
+        // console.log(team);
+        return <Modal {...team} />;
+      })} */}
+      {opened && <Modal />}
     </>
   );
 };
