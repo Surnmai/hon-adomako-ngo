@@ -36,7 +36,7 @@ const OurTeamCard = ({ array }) => {
         // console.log(team);
         return <Modal {...team} />;
       })} */}
-      {opened && <Modal />}
+      {/* {opened && <Modal />} */}
     </>
   );
 };
