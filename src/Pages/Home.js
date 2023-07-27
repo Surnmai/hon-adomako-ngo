@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>
+        <title data-rh="true">
           Aiperdlbg | Africa Institute for Policy Evaluation Research and
           Development.
         </title>

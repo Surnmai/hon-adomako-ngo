@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Aiperdlbg - Contact</title>
+        <title data-rh="true">Aiperdlbg - Contact</title>
         <meta name="description" content="Contact Aiperdlbg " />
       </Helmet>
       <TopBanner img={Image} title="contact" text="get in touch" />

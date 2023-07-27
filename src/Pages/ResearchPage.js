@@ -28,7 +28,7 @@ const Research = () => {
   return (
     <>
       <Helmet>
-        <title>Aiperdlbg - Projects</title>
+        <title data-rh="true">Aiperdlbg - Projects</title>
         <meta name="description" content="Aiperdlbg Projects " />
       </Helmet>
       <TopBanner img={Image} title="Research" text="Recent Research" />

@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 import { useGlobalContext } from "../../context";
 
 const NavLinks = () => {
-  const { menuBar, closeMenuBar } = useGlobalContext();
+  const { menuBar, isClosed } = useGlobalContext();
   const menuRef = useRef(null);
   // console.log(menuRef.current);
 
@@ -19,7 +19,7 @@ const NavLinks = () => {
     const handleClickOutside = (e) => {
       // console.log(e.target);
       if (menuRef.current && !menuRef.current.contains(e.target)) {
-        closeMenuBar();
+        isClosed();
       }
     };
 
@@ -28,7 +28,7 @@ const NavLinks = () => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [closeMenuBar, menuRef]);
+  }, [isClosed, menuRef]);
 
   return (
     <>
@@ -43,7 +43,7 @@ const NavLinks = () => {
                   className={({ isActive }) =>
                     isActive ? "links active" : "links"
                   }
-                  onClick={() => closeMenuBar()}
+                  onClick={() => isClosed()}
                 >
                   {text}
                 </NavLink>

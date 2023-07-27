@@ -26,7 +26,7 @@ const AboutUs = () => {
   return (
     <>
       <Helmet>
-        <title>Aiperdlbg - About</title>
+        <title data-rh="true">Aiperdlbg - About</title>
         <meta name="description" content="All about Aiperdlbg " />
       </Helmet>
       <TopBanner img={About} title="About Us" text="Who we are" />

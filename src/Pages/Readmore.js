@@ -18,7 +18,7 @@ const Readmore = () => {
   return (
     <>
       <Helmet>
-        <title>Aiperdlbg - {title}</title>
+        <title data-rh="true">Aiperdlbg - {title}</title>
         <meta name="description" content={text} />
       </Helmet>
       <section className="readMore">

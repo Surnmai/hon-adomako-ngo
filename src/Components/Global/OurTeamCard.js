@@ -1,6 +1,10 @@
 import React from "react";
 
+// import Context
+import { useGlobalContext } from "../../context";
+
 const OurTeamCard = ({ array }) => {
+  // const {}
   return (
     <>
       <h3 className="title">Meet our team</h3>
@@ -8,6 +12,7 @@ const OurTeamCard = ({ array }) => {
         {array.map((team, index) => {
           const { image, name, title } = team;
           return (
+            // onclick event to execute a modal
             <div className="box" key={index}>
               <div className="image">
                 <img src={image} alt={title} />

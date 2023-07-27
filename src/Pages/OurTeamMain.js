@@ -17,7 +17,7 @@ const OurTeamMain = () => {
   return (
     <>
       <Helmet>
-        <title>Aiperdlbg - Our Team</title>
+        <title data-rh="true">Aiperdlbg - Our Team</title>
         <meta name="description" content="Aiperdlbg Team " />
       </Helmet>
       <TopBanner img={Image} title="What we do" text="Our honoured team " />

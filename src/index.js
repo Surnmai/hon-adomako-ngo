@@ -5,12 +5,13 @@ import App from "./App";
 
 // import context API
 import { AppContextProvider } from "./context";
+import { HelmetProvider } from "react-helmet-async";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <HelmetProvider>
     <AppContextProvider>
       <App />
     </AppContextProvider>
-  </React.StrictMode>
+  </HelmetProvider>
 );
