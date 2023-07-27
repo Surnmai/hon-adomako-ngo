@@ -112,7 +112,7 @@ export const recentProjects = [
 export const ourteam = [
   {
     image: OurTeam1,
-    name: "hon. Dr. Adomako Mensah",
+    name: " Dr. Alex Adomako Mensah",
     title: "President",
     text: " A dedicated Member of Parliament for Sekyere Afram Plains, with a strong background in banking, extensive expertise in financial services research, and a notable role in shaping policies through active participation in parliamentary committees and influential think tanks, making him a knowledgeable and influential figure in shaping evidence-based policies for financial services and related sectors.",
   },
@@ -130,11 +130,11 @@ export const ourteam = [
   },
 ];
 
-// have to creat an object for our team page with four contents
+// have to create an object for our team page with four contents
 export const ourteamAll = [
   {
     image: OurTeam1,
-    name: "hon. Dr. Adomako Mensah",
+    name: " Dr. Alex Adomako Mensah",
     title: "President",
     text: " A dedicated Member of Parliament for Sekyere Afram Plains, with a strong background in banking, extensive expertise in financial services research, and a notable role in shaping policies through active participation in parliamentary committees and influential think tanks, making him a knowledgeable and influential figure in shaping evidence-based policies for financial services and related sectors.",
   },

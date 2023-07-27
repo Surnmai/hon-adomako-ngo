@@ -15,7 +15,7 @@ const OurTeamCard = ({ array }) => {
               <div className="content">
                 <p>{name}</p>
                 <h3 className="title">{title}</h3>
-                <article>{text}</article>
+                {/* <article>{text}</article> */}
               </div>
             </div>
           );

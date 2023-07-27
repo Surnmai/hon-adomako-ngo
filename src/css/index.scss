@@ -414,6 +414,8 @@ header {
 
       &:hover {
         box-shadow: $box-shadow1;
+        cursor: pointer;
+        background: $yellow;
       }
 
       .image {
@@ -580,7 +582,7 @@ footer {
     // overflow-x: auto;
     li {
       list-style-type: square;
-      font-size: 1.1rem;
+      font-size: 1.5rem;
       line-height: 1.6;
       letter-spacing: 0.1rem;
       padding: 0.2rem 0;
@@ -590,10 +592,10 @@ footer {
     }
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   article {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     letter-spacing: 0.1rem;
     padding: 0.2rem 0;
@@ -674,6 +676,8 @@ footer {
 
       &:hover {
         box-shadow: $box-shadow1;
+        cursor: pointer;
+        background: $yellow;
       }
 
       .image {
@@ -698,15 +702,15 @@ footer {
           padding: 0.5rem 0;
           font-size: 2.5rem;
         }
-        article {
-          font-size: 1.2rem;
-          color: $dark-black;
-          font-weight: 500;
-          line-height: 1.8rem;
-          letter-spacing: 0.1rem;
-          // text-align: justify;
-          text-transform: none;
-        }
+        // article {
+        //   font-size: 1.2rem;
+        //   color: $dark-black;
+        //   font-weight: 500;
+        //   line-height: 1.8rem;
+        //   letter-spacing: 0.1rem;
+        //   // text-align: justify;
+        //   text-transform: none;
+        // }
       }
     }
   }
