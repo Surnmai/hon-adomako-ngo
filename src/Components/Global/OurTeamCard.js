@@ -7,10 +7,11 @@ import { useGlobalContext } from "../../context";
 import Modal from "../Modal";
 
 // import OurTeamData
-import { ourteamAll } from "../../data";
+// import { ourteamAll } from "../../data";
 
 const OurTeamCard = ({ array }) => {
-  const { openModal, opened } = useGlobalContext();
+  const { popupcontent, opened, changeContent } = useGlobalContext();
+  // console.log(popupcontent);
   return (
     <>
       <h3 className="title">Meet our team</h3>
@@ -19,7 +20,11 @@ const OurTeamCard = ({ array }) => {
           const { image, name, title } = team;
           return (
             // onclick event to execute a modal
-            <div className="box" key={index} onClick={() => openModal()}>
+            <div
+              className="box"
+              key={index}
+              onClick={() => changeContent(team)}
+            >
               <div className="image">
                 <img src={image} alt={title} />
               </div>
@@ -32,11 +37,13 @@ const OurTeamCard = ({ array }) => {
           );
         })}
       </div>
-      {/* {ourteamAll.map((team) => {
-        // console.log(team);
-        return <Modal {...team} />;
-      })} */}
-      {/* {opened && <Modal />} */}
+      {opened && (
+        <div>
+          {popupcontent.map((team, index) => {
+            return <Modal {...team} key={index} />;
+          })}
+        </div>
+      )}
     </>
   );
 };

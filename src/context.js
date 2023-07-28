@@ -8,6 +8,7 @@ export const AppContext = createContext();
 export const AppContextProvider = ({ children }) => {
   const [menuBar, setMenuBar] = useState(false);
   const [opened, setOpened] = useState(false);
+  const [popupcontent, setPopupcontent] = useState([]);
 
   const closeMenuBar = () => {
     setMenuBar(false);
@@ -18,6 +19,11 @@ export const AppContextProvider = ({ children }) => {
   };
   const closeModal = () => {
     setOpened(false);
+  };
+
+  const changeContent = (team) => {
+    setPopupcontent([team]);
+    setOpened(!opened);
   };
 
   useEffect(() => {
@@ -41,6 +47,9 @@ export const AppContextProvider = ({ children }) => {
         openModal,
         closeModal,
         opened,
+        popupcontent,
+        setPopupcontent,
+        changeContent,
       }}
     >
       {children}

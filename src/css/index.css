@@ -374,6 +374,48 @@ header .icons svg:hover {
   letter-spacing: 0.1rem;
   text-transform: none;
 }
+.our-team .modal {
+  position: relative;
+  position: fixed;
+  top: 5rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5803921569);
+  width: 100vw;
+  height: 100vh;
+}
+.our-team .modal .closeBtn {
+  color: #130f40;
+  position: absolute;
+  top: 33%;
+  right: 11%;
+  font-size: 2.5rem;
+}
+.our-team .modal .modal-container {
+  background: #fefdfc;
+  display: flex;
+  gap: 2rem;
+  padding: 5rem 2rem 1rem;
+  border-radius: 0.5rem;
+}
+.our-team .modal .modal-container .img {
+  flex: 1 1 20rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.our-team .modal .modal-container .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-team .modal .modal-container .content {
+  flex: 3 1 30rem;
+}
 .our-team .button {
   text-align: center;
   padding: 2rem 0;
@@ -590,6 +632,48 @@ footer .copyright {
 .our-team-main .container .box .content .title {
   padding: 0.5rem 0;
   font-size: 2.5rem;
+}
+.our-team-main .modal {
+  position: relative;
+  position: fixed;
+  top: 5rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5803921569);
+  width: 100vw;
+  height: 100vh;
+}
+.our-team-main .modal .closeBtn {
+  color: #130f40;
+  position: absolute;
+  top: 33%;
+  right: 11%;
+  font-size: 2.5rem;
+}
+.our-team-main .modal .modal-container {
+  background: #fefdfc;
+  display: flex;
+  gap: 2rem;
+  padding: 5rem 2rem 1rem;
+  border-radius: 0.5rem;
+}
+.our-team-main .modal .modal-container .img {
+  flex: 1 1 20rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.our-team-main .modal .modal-container .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.our-team-main .modal .modal-container .content {
+  flex: 3 1 30rem;
 }
 
 .readMore img {
