@@ -380,7 +380,7 @@ header .icons svg:hover {
 }
 .our-team .modal {
   position: fixed;
-  top: 5rem;
+  top: 0rem;
   left: 0;
   bottom: 0;
   right: 0;
@@ -390,6 +390,7 @@ header .icons svg:hover {
   background: rgba(0, 0, 0, 0.8470588235);
   width: 100vw;
   height: 100vh;
+  z-index: 1000;
 }
 .our-team .modal .closeBtn {
   color: #130f40;
@@ -662,7 +663,7 @@ footer .copyright {
 }
 .our-team-main .modal {
   position: fixed;
-  top: 5rem;
+  top: 0rem;
   left: 0;
   bottom: 0;
   right: 0;
@@ -672,6 +673,7 @@ footer .copyright {
   background: rgba(0, 0, 0, 0.8470588235);
   width: 100vw;
   height: 100vh;
+  z-index: 1000;
 }
 .our-team-main .modal .closeBtn {
   color: #130f40;

@@ -9,6 +9,7 @@ export const AppContextProvider = ({ children }) => {
   const [menuBar, setMenuBar] = useState(false);
   const [opened, setOpened] = useState(false);
   const [popupcontent, setPopupcontent] = useState([]);
+  // const [onModalScroll, setOnModalScroll] = useState(null);
 
   const closeMenuBar = () => {
     setMenuBar(false);
@@ -24,6 +25,12 @@ export const AppContextProvider = ({ children }) => {
   const changeContent = (team) => {
     setPopupcontent([team]);
     setOpened(!opened);
+
+    // if (onModalScroll === null) {
+    //   setOnModalScroll({ position: "fixed" });
+    // } else {
+    //   setOnModalScroll(null);
+    // }
   };
 
   useEffect(() => {
