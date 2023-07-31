@@ -357,6 +357,10 @@ header .icons svg:hover {
   padding: 2rem;
   text-align: center;
 }
+.our-team .container .box .content:hover p,
+.our-team .container .box .content:hover h3 {
+  color: #fff;
+}
 .our-team .container .box .content p {
   color: #666;
   font-size: 1.5rem;
@@ -623,6 +627,10 @@ footer .copyright {
 .our-team-main .container .box .content {
   padding: 2rem;
   text-align: center;
+}
+.our-team-main .container .box .content:hover p,
+.our-team-main .container .box .content:hover h3 {
+  color: #fff;
 }
 .our-team-main .container .box .content p {
   color: #666;
