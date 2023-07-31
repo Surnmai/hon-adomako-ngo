@@ -859,6 +859,16 @@ footer .copyright {
   .contact-form form {
     width: 100%;
   }
+  .our-team-main .modal .closeBtn,
+  .our-team .modal .closeBtn {
+    top: 2%;
+    right: 8%;
+  }
+  .our-team-main .modal .modal-container,
+  .our-team .modal .modal-container {
+    height: 100vh;
+    width: 100vw;
+  }
 }
 @media all and (max-width: 450px) {
   html {

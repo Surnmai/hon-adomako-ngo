@@ -1028,6 +1028,21 @@ footer {
       width: 100%;
     }
   }
+
+  .our-team-main,
+  .our-team {
+    .modal {
+      .closeBtn {
+        top: 2%;
+        right: 8%;
+      }
+
+      .modal-container {
+        height: 100vh;
+        width: 100vw;
+      }
+    }
+  }
 }
 
 @media all and (max-width: 450px) {
