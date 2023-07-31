@@ -404,7 +404,8 @@ header {
 // BackgroundImgBanner section ends
 
 // out team section starts
-.our-team {
+.our-team,
+.our-team-main {
   .container {
     @include grid(35rem);
     gap: 2.5rem;
@@ -465,6 +466,7 @@ header {
       top: 17%;
       right: 11%;
       font-size: 2.5rem;
+      cursor: pointer;
     }
     position: fixed;
     top: 0rem;
@@ -740,132 +742,6 @@ footer {
   }
 }
 // research-page ends
-
-.our-team-main {
-  .container {
-    @include grid(35rem);
-    gap: 2.5rem;
-
-    .box {
-      background: $light-yellow;
-
-      &:hover {
-        box-shadow: $box-shadow1;
-        cursor: pointer;
-        background: $yellow;
-      }
-
-      .image {
-        height: 30rem;
-        // overflow: hidden;
-        // width: 100%;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-      .content {
-        padding: 2rem;
-        text-align: center;
-
-        &:hover {
-          p,
-          h3 {
-            color: $white;
-          }
-        }
-        p {
-          color: $light-color;
-          font-size: 1.5rem;
-          padding-top: 1rem;
-        }
-        .title {
-          padding: 0.5rem 0;
-          font-size: 2.5rem;
-        }
-        // article {
-        //   font-size: 1.2rem;
-        //   color: $dark-black;
-        //   font-weight: 500;
-        //   line-height: 1.8rem;
-        //   letter-spacing: 0.1rem;
-        //   // text-align: justify;
-        //   text-transform: none;
-        // }
-      }
-    }
-  }
-  .modal {
-    // position: relative;
-    .closeBtn {
-      color: $black;
-      position: absolute;
-      top: 17%;
-      right: 11%;
-      font-size: 2.5rem;
-    }
-    position: fixed;
-    top: 0rem;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #000000d8;
-    // background: red;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1000;
-    .modal-container {
-      background: $bg;
-      display: flex;
-      gap: 2rem;
-      padding: 5rem 2rem 1rem;
-      border-radius: 0.5rem;
-      height: 70vh;
-      overflow: auto;
-
-      .img {
-        flex: 1 1 20rem;
-        height: 30rem;
-        border-radius: 1rem;
-        overflow: hidden;
-        // height: 10rem;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-      .content {
-        flex: 3 1 30rem;
-        height: 30rem;
-        padding: 0 2rem;
-        // overflow-y: scroll;
-
-        .name {
-          font-weight: bold;
-          font-size: 2rem;
-          margin-bottom: 1rem;
-        }
-        p {
-          text-transform: none;
-          margin-top: 2rem;
-          padding-bottom: 2rem;
-          color: #000;
-          font-size: 1.2rem;
-          font-weight: 600;
-          letter-spacing: 0.1rem;
-          line-height: 1.6;
-          // text-align: justify;
-          // overflow-y: scroll;
-        }
-      }
-    }
-  }
-}
 
 // readMore style starts
 .readMore {

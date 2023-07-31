@@ -330,47 +330,58 @@ header .icons svg:hover {
   overflow: hidden;
 }
 
-.our-team .container {
+.our-team .container,
+.our-team-main .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 1.5rem;
   gap: 2.5rem;
 }
-.our-team .container .box {
+.our-team .container .box,
+.our-team-main .container .box {
   background: #fcedc6;
 }
-.our-team .container .box:hover {
+.our-team .container .box:hover,
+.our-team-main .container .box:hover {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   cursor: pointer;
   background: #f2c94c;
 }
-.our-team .container .box .image {
+.our-team .container .box .image,
+.our-team-main .container .box .image {
   height: 30rem;
 }
-.our-team .container .box .image img {
+.our-team .container .box .image img,
+.our-team-main .container .box .image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.our-team .container .box .content {
+.our-team .container .box .content,
+.our-team-main .container .box .content {
   padding: 2rem;
   text-align: center;
 }
 .our-team .container .box .content:hover p,
-.our-team .container .box .content:hover h3 {
+.our-team .container .box .content:hover h3,
+.our-team-main .container .box .content:hover p,
+.our-team-main .container .box .content:hover h3 {
   color: #fff;
 }
-.our-team .container .box .content p {
+.our-team .container .box .content p,
+.our-team-main .container .box .content p {
   color: #666;
   font-size: 1.5rem;
   padding-top: 1rem;
 }
-.our-team .container .box .content .title {
+.our-team .container .box .content .title,
+.our-team-main .container .box .content .title {
   padding: 0.5rem 0;
   font-size: 2.5rem;
 }
-.our-team .container .box .content article {
+.our-team .container .box .content article,
+.our-team-main .container .box .content article {
   font-size: 1.2rem;
   color: rgb(0, 0, 0);
   font-weight: 500;
@@ -378,7 +389,8 @@ header .icons svg:hover {
   letter-spacing: 0.1rem;
   text-transform: none;
 }
-.our-team .modal {
+.our-team .modal,
+.our-team-main .modal {
   position: fixed;
   top: 0rem;
   left: 0;
@@ -392,14 +404,17 @@ header .icons svg:hover {
   height: 100vh;
   z-index: 1000;
 }
-.our-team .modal .closeBtn {
+.our-team .modal .closeBtn,
+.our-team-main .modal .closeBtn {
   color: #130f40;
   position: absolute;
   top: 17%;
   right: 11%;
   font-size: 2.5rem;
+  cursor: pointer;
 }
-.our-team .modal .modal-container {
+.our-team .modal .modal-container,
+.our-team-main .modal .modal-container {
   background: #fefdfc;
   display: flex;
   gap: 2rem;
@@ -408,29 +423,34 @@ header .icons svg:hover {
   height: 70vh;
   overflow: auto;
 }
-.our-team .modal .modal-container .img {
+.our-team .modal .modal-container .img,
+.our-team-main .modal .modal-container .img {
   flex: 1 1 20rem;
   height: 30rem;
   border-radius: 1rem;
   overflow: hidden;
 }
-.our-team .modal .modal-container .img img {
+.our-team .modal .modal-container .img img,
+.our-team-main .modal .modal-container .img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.our-team .modal .modal-container .content {
+.our-team .modal .modal-container .content,
+.our-team-main .modal .modal-container .content {
   flex: 3 1 30rem;
   height: 30rem;
   padding: 0 2rem;
 }
-.our-team .modal .modal-container .content .name {
+.our-team .modal .modal-container .content .name,
+.our-team-main .modal .modal-container .content .name {
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-.our-team .modal .modal-container .content p {
+.our-team .modal .modal-container .content p,
+.our-team-main .modal .modal-container .content p {
   text-transform: none;
   margin-top: 2rem;
   padding-bottom: 2rem;
@@ -440,7 +460,8 @@ header .icons svg:hover {
   letter-spacing: 0.1rem;
   line-height: 1.6;
 }
-.our-team .button {
+.our-team .button,
+.our-team-main .button {
   text-align: center;
   padding: 2rem 0;
   margin: 6rem 0;
@@ -619,109 +640,6 @@ footer .copyright {
 }
 .research-page .container .box .content .link:hover {
   color: #130f40;
-}
-
-.our-team-main .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-  gap: 1.5rem;
-  gap: 2.5rem;
-}
-.our-team-main .container .box {
-  background: #fcedc6;
-}
-.our-team-main .container .box:hover {
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  background: #f2c94c;
-}
-.our-team-main .container .box .image {
-  height: 30rem;
-}
-.our-team-main .container .box .image img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.our-team-main .container .box .content {
-  padding: 2rem;
-  text-align: center;
-}
-.our-team-main .container .box .content:hover p,
-.our-team-main .container .box .content:hover h3 {
-  color: #fff;
-}
-.our-team-main .container .box .content p {
-  color: #666;
-  font-size: 1.5rem;
-  padding-top: 1rem;
-}
-.our-team-main .container .box .content .title {
-  padding: 0.5rem 0;
-  font-size: 2.5rem;
-}
-.our-team-main .modal {
-  position: fixed;
-  top: 0rem;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.8470588235);
-  width: 100vw;
-  height: 100vh;
-  z-index: 1000;
-}
-.our-team-main .modal .closeBtn {
-  color: #130f40;
-  position: absolute;
-  top: 17%;
-  right: 11%;
-  font-size: 2.5rem;
-}
-.our-team-main .modal .modal-container {
-  background: #fefdfc;
-  display: flex;
-  gap: 2rem;
-  padding: 5rem 2rem 1rem;
-  border-radius: 0.5rem;
-  height: 70vh;
-  overflow: auto;
-}
-.our-team-main .modal .modal-container .img {
-  flex: 1 1 20rem;
-  height: 30rem;
-  border-radius: 1rem;
-  overflow: hidden;
-}
-.our-team-main .modal .modal-container .img img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.our-team-main .modal .modal-container .content {
-  flex: 3 1 30rem;
-  height: 30rem;
-  padding: 0 2rem;
-}
-.our-team-main .modal .modal-container .content .name {
-  font-weight: bold;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-.our-team-main .modal .modal-container .content p {
-  text-transform: none;
-  margin-top: 2rem;
-  padding-bottom: 2rem;
-  color: #000;
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  line-height: 1.6;
 }
 
 .readMore img {
