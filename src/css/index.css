@@ -379,7 +379,6 @@ header .icons svg:hover {
   text-transform: none;
 }
 .our-team .modal {
-  position: relative;
   position: fixed;
   top: 5rem;
   left: 0;
@@ -388,14 +387,14 @@ header .icons svg:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5803921569);
+  background: rgba(0, 0, 0, 0.8470588235);
   width: 100vw;
   height: 100vh;
 }
 .our-team .modal .closeBtn {
   color: #130f40;
   position: absolute;
-  top: 33%;
+  top: 17%;
   right: 11%;
   font-size: 2.5rem;
 }
@@ -405,9 +404,12 @@ header .icons svg:hover {
   gap: 2rem;
   padding: 5rem 2rem 1rem;
   border-radius: 0.5rem;
+  height: 70vh;
+  overflow: auto;
 }
 .our-team .modal .modal-container .img {
   flex: 1 1 20rem;
+  height: 30rem;
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -419,6 +421,23 @@ header .icons svg:hover {
 }
 .our-team .modal .modal-container .content {
   flex: 3 1 30rem;
+  height: 30rem;
+  padding: 0 2rem;
+}
+.our-team .modal .modal-container .content .name {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.our-team .modal .modal-container .content p {
+  text-transform: none;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 1.6;
 }
 .our-team .button {
   text-align: center;
@@ -642,7 +661,6 @@ footer .copyright {
   font-size: 2.5rem;
 }
 .our-team-main .modal {
-  position: relative;
   position: fixed;
   top: 5rem;
   left: 0;
@@ -651,14 +669,14 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5803921569);
+  background: rgba(0, 0, 0, 0.8470588235);
   width: 100vw;
   height: 100vh;
 }
 .our-team-main .modal .closeBtn {
   color: #130f40;
   position: absolute;
-  top: 33%;
+  top: 17%;
   right: 11%;
   font-size: 2.5rem;
 }
@@ -668,9 +686,12 @@ footer .copyright {
   gap: 2rem;
   padding: 5rem 2rem 1rem;
   border-radius: 0.5rem;
+  height: 70vh;
+  overflow: auto;
 }
 .our-team-main .modal .modal-container .img {
   flex: 1 1 20rem;
+  height: 30rem;
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -682,6 +703,23 @@ footer .copyright {
 }
 .our-team-main .modal .modal-container .content {
   flex: 3 1 30rem;
+  height: 30rem;
+  padding: 0 2rem;
+}
+.our-team-main .modal .modal-container .content .name {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.our-team-main .modal .modal-container .content p {
+  text-transform: none;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  line-height: 1.6;
 }
 
 .readMore img {
