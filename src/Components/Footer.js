@@ -75,7 +75,7 @@ const Footer = () => {
             </div>
             <div className="email">
               <p>email: </p>
-              <p className="mail">aiperdlbg@gmail.com</p>
+              <p className="mail">admin@aiperdlbg.org</p>
             </div>
           </div>
         </div>
