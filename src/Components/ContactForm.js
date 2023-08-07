@@ -1,46 +1,54 @@
-// import React, { useEffect, useState } from "react";
-import React from "react";
+import React, { useRef } from "react";
 
-// import emailjs from "@emailjs/browser";
+// import Toastify
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+// import EmailJs
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-  // const [alert, setAlert] = useState(false);
+  // const notify = () => toast("Email successfully sent");
+  const notify = () =>
+    toast.success("Email successfully sent", {
+      theme: "dark",
+      position: "top-right",
+      autoClose: 1500,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+
+  const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // emailjs.send(
-    //   "service_beg0bxi",
-    //   "template_0xcinwa",
-    //   values,
-    //   "z1hBtHGueVE0dPugc"
-    // );
-    // setAlert(!alert);
+
+    emailjs
+      .sendForm(
+        "service_94uxdo2",
+        "template_sjyu1sp",
+        form.current,
+        "beMyP5zxvFtmY7ODa"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+    notify();
   };
-
-  // const [values, setValues] = useState({
-  //   fullname: "",
-  //   email: "",
-  //   number: "",
-  //   message: "",
-  // });
-
-  // const handleChange = (e) => {
-  //   const name = e.target.name;
-  //   const value = e.target.value;
-  //   // console.log(name, value);
-  //   setValues({ ...values, [name]: value });
-  // };
-
-  //   useEffect(() => {
-  //     if (alert) {
-  //       setTimeout(() => {}, 5000);
-  //     }
-  //   }, []);
 
   return (
     <>
       <section className="contact-form">
-        <form action="" onSubmit={handleSubmit}>
+        <form ref={form} action="" onSubmit={handleSubmit}>
           <p>
             Email us with any questions or inquiries and we would be happy to
             answer your questions and assist you
@@ -51,7 +59,7 @@ const ContactForm = () => {
               placeholder="Full name"
               className="inputText"
               required
-              name="fullname"
+              name="full_name"
               // value={values.fullname}
               // onChange={handleChange}
             />
@@ -64,8 +72,6 @@ const ContactForm = () => {
               className="inputText"
               required
               name="email"
-              // value={values.email}
-              // onChange={handleChange}
             />
           </div>
 
@@ -76,8 +82,6 @@ const ContactForm = () => {
               className="inputText"
               required
               name="number"
-              // value={values.number}
-              // onChange={handleChange}
             />
           </div>
 
@@ -90,17 +94,13 @@ const ContactForm = () => {
               name="message"
               cols="3"
               rows="5"
-              // value={values.message}
-              // onChange={handleChange}
             ></textarea>
-          </div>
-          <div className="alert">
-            <small>Message successfully sent</small>
           </div>
           <div>
             <button className="btn" type="submit">
               submit
             </button>
+            <ToastContainer />
           </div>
         </form>
       </section>
