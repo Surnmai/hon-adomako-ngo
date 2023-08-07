@@ -13,7 +13,7 @@ const ContactForm = () => {
     toast.success("Email successfully sent", {
       theme: "dark",
       position: "top-right",
-      autoClose: 1500,
+      autoClose: 2000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
