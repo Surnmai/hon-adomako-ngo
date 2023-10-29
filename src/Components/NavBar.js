@@ -47,11 +47,7 @@ const NavBar = () => {
             <FaLinkedin className="social-icons" />
           </Link> */}
 
-          <Button
-            name={"Donate"}
-            path={"https://paystack.com/gh/countries?q=/countries"}
-            target={"_blank"}
-          />
+          <Button name={"Donate"} path={"/donate"} />
         </div>
       </header>
     </>

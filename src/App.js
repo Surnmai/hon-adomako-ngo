@@ -11,6 +11,7 @@ import ResearchPage from "./Pages/ResearchPage";
 import Contact from "./Pages/Contact";
 import ScrollToTop from "./Components/ScrollTotop";
 import Readmore from "./Pages/Readmore";
+import Donate from "./Pages/Donate";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/research" element={<ResearchPage />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/readmore/:id" element={<Readmore />} />
+          <Route path="/donate" element={<Donate />} />
         </Routes>
         <Footer />
       </Router>

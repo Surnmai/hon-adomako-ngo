@@ -711,6 +711,39 @@ footer .copyright {
   text-align: center;
 }
 
+.donate {
+  background: url("../images/donate2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.donate::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.donate .content {
+  transform: translateY(20rem);
+  width: 70%;
+}
+.donate .content h3,
+.donate .content h1 {
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 900;
+  text-shadow: 0.2rem 0.2rem black;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+}
+
 @media all and (max-width: 991px) {
   html {
     font-size: 55%;

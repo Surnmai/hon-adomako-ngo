@@ -52,11 +52,7 @@ const Footer = () => {
                   <FaLinkedin className="social-icons" />
                 </Link>
               </div>
-              <Button
-                name={"Donate"}
-                path={"https://paystack.com/gh/countries?q=/countries"}
-                target={"_blank"}
-              />
+              <Button name={"Donate"} path={"/donate"} />
             </div>
           </div>
           <div className="box">
@@ -67,8 +63,8 @@ const Footer = () => {
           <div className="box">
             <div className="address">
               <p>address: </p>
-              <p>P.O. Box Os 3251, </p>
-              <p>Osu-Accra, Number 1 Tabora road</p>
+              <p>P.O. Box Os 3251, Osu-Accra</p>
+              <p>Nii Oworsika Road, Tabora Junction</p>
             </div>
             <div className="phone">
               <p>phone: </p>
