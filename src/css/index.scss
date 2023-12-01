@@ -745,14 +745,23 @@ footer {
 
 // readMore style starts
 .readMore {
-  img {
+  .img {
+    // height: 10%;
+    max-width: 80%;
     margin: auto;
-    display: block;
+    img {
+      // margin: auto;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      // display: block;
+    }
   }
   h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
     line-height: 1.6;
+    text-transform: uppercase;
   }
   .summary {
     margin: 1rem 0;

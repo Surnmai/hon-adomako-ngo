@@ -642,14 +642,21 @@ footer .copyright {
   color: #130f40;
 }
 
-.readMore img {
+.readMore .img {
+  max-width: 80%;
   margin: auto;
-  display: block;
+}
+.readMore .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 .readMore h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
   line-height: 1.6;
+  text-transform: uppercase;
 }
 .readMore .summary {
   margin: 1rem 0;
