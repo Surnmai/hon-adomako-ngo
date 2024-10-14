@@ -14,7 +14,7 @@ import { Helmet } from "react-helmet";
 // filter data according to description for first
 const filteredData = recentProjects.filter((recent) => recent.desc === "first");
 
-// filter data according to description for first
+// filter data according to description for second
 const SecfilteredData = recentProjects.filter(
   (recent) => recent.desc === "second"
 );

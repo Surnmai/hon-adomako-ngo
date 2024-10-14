@@ -14,20 +14,23 @@ const Readmore = () => {
   const readMore = recentProjects.find((recent) => recent.id === id);
 
   const { text, detailedText, image, title, more } = readMore;
-  const {
-    title1,
-    title2,
-    title3,
-    title4,
-    title5,
-    title6,
-    content1,
-    content2,
-    content3,
-    content4,
-    content5,
-    content6,
-  } = more;
+  // const {
+  //   title1,
+  //   title2,
+  //   title3,
+  //   title4,
+  //   title5,
+  //   title6,
+  //   content1,
+  //   content2,
+  //   content3,
+  //   content4,
+  //   content5,
+  //   content6,
+  // } = more;
+
+  console.log(more);
+
   return (
     <>
       <Helmet>
@@ -42,23 +45,23 @@ const Readmore = () => {
         <article className="summary">{text}</article>
         <article>{detailedText}</article>
 
-        <h1>{title1}</h1>
-        <article>{content1}</article>
+        <h1>{more?.title1}</h1>
+        <article>{more?.content1}</article>
 
-        <h1>{title2}</h1>
-        <article>{content2}</article>
+        <h1>{more?.title2}</h1>
+        <article>{more?.content2}</article>
 
-        <h1>{title3}</h1>
-        <article>{content3}</article>
+        <h1>{more?.title3}</h1>
+        <article>{more?.content3}</article>
 
-        <h1>{title4}</h1>
-        <article>{content4}</article>
+        <h1>{more?.title4}</h1>
+        <article>{more?.content4}</article>
 
-        <h1>{title5}</h1>
-        <article>{content5}</article>
+        <h1>{more?.title5}</h1>
+        <article>{more?.content5}</article>
 
-        <h1>{title6}</h1>
-        <article>{content6}</article>
+        <h1>{more?.title6}</h1>
+        <article>{more?.content6}</article>
       </section>
     </>
   );
