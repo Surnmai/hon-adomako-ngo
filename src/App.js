@@ -12,6 +12,7 @@ import Contact from "./Pages/Contact";
 import ScrollToTop from "./Components/ScrollTotop";
 import Readmore from "./Pages/Readmore";
 import Donate from "./Pages/Donate";
+import Error from "./Error";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/readmore/:id" element={<Readmore />} />
           <Route path="/donate" element={<Donate />} />
+          <Route path="/error" element={<Error />} />
         </Routes>
         <Footer />
       </Router>
